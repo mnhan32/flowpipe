@@ -127,8 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect this Plug to the given Plug.  <a href="#a0f3e881a92d7a1b4d6d07d9e63180c98"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">connections</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#afcc7a4b78ecd8fa7e713f8cfa0f51017">value</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f">is_dirty</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">connections</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>Receives data from an <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug.">OutputPlug</a>. </p>
@@ -153,7 +154,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>node</em>&#160;</td>
+          <td class="paramname"><em>node</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>value</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -166,6 +173,8 @@ Public Attributes</h2></td></tr>
 
 <p>Initialize the <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug.">InputPlug</a>. </p>
 <p>Can be connected to an <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug.">OutputPlug</a>. Args: name (str): The name of the Plug. node (INode): The Node holding the Plug. </p>
+
+<p>Reimplemented from <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ac775ee34451fdfa742b318538164070e">IPlug</a>.</p>
 
 </div>
 </div>
@@ -222,18 +231,16 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="a05c97c0ecc629abbb582b61ed0bfc9b3"></a><!-- doxytag: member="flowpipe::plug::InputPlug::connections" ref="a05c97c0ecc629abbb582b61ed0bfc9b3" args="" -->
+<a class="anchor" id="afcc7a4b78ecd8fa7e713f8cfa0f51017"></a><!-- doxytag: member="flowpipe::plug::InputPlug::value" ref="afcc7a4b78ecd8fa7e713f8cfa0f51017" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">connections</a></td>
+          <td class="memname"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#afcc7a4b78ecd8fa7e713f8cfa0f51017">value</a></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">IPlug</a>.</p>
 
 </div>
 </div>
@@ -249,6 +256,21 @@ Public Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f">IPlug</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a05c97c0ecc629abbb582b61ed0bfc9b3"></a><!-- doxytag: member="flowpipe::plug::InputPlug::connections" ref="a05c97c0ecc629abbb582b61ed0bfc9b3" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">connections</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">IPlug</a>.</p>
 
 </div>
 </div>
@@ -277,7 +299,7 @@ Public Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../db/d72/namespaceflowpipe_1_1plug.xhtml">plug</a>      </li>
       <li class="navelem"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml">InputPlug</a>      </li>
 
-    <li class="footer">Generated on Sat Apr 15 2017 04:14:35 for FlowPipe by
+    <li class="footer">Generated on Sat Apr 15 2017 17:51:46 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
