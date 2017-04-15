@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.xhtml"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.xhtml"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li>
@@ -104,7 +103,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <!-- doxytag: class="flowpipe::plug::InputPlug" --><!-- doxytag: inherits="flowpipe::plug::IPlug" -->
-<p>A <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="A InputPlug for a Connection.">InputPlug</a> for a Connection.  
+<p>Receives data from an <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug.">OutputPlug</a>.  
  <a href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for InputPlug:</div>
@@ -121,16 +120,18 @@ Inheritance diagram for InputPlug:</div>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="A InputPlug for a Connection.">InputPlug</a>.  <a href="#ac775ee34451fdfa742b318538164070e"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug.">InputPlug</a>.  <a href="#ac775ee34451fdfa742b318538164070e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#af3d9f88a3b255fd2c029a2b87a251c33">__unicode__</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Show this Plug's type and it's connections.  <a href="#af3d9f88a3b255fd2c029a2b87a251c33"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a0f3e881a92d7a1b4d6d07d9e63180c98">connect</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect this Plug to the given Plug.  <a href="#a0f3e881a92d7a1b4d6d07d9e63180c98"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3">connections</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f">is_dirty</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>A <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="A InputPlug for a Connection.">InputPlug</a> for a Connection. </p>
+<div class="textblock"><p>Receives data from an <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug.">OutputPlug</a>. </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a><!-- doxytag: member="flowpipe::plug::InputPlug::__init__" ref="ac775ee34451fdfa742b318538164070e" args="" -->
 <div class="memitem">
@@ -163,8 +164,8 @@ Public Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initialize the <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="A InputPlug for a Connection.">InputPlug</a>. </p>
-<p>Can be connected to the `OutputPlug`. Args: name (str): The name of the plug. node (INode): The Node holding the `IPlug`. </p>
+<p>Initialize the <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug.">InputPlug</a>. </p>
+<p>Can be connected to an <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug.">OutputPlug</a>. Args: name (str): The name of the Plug. node (INode): The Node holding the Plug. </p>
 
 </div>
 </div>
@@ -183,7 +184,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000016">Todo:</a></b></dt><dd>documentation for __unicode__. </dd></dl>
+
+<p>Show this Plug's type and it's connections. </p>
 
 </div>
 </div>
@@ -211,7 +213,9 @@ Public Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000017">Todo:</a></b></dt><dd>documentation for connect. </dd></dl>
+
+<p>Connect this Plug to the given Plug. </p>
+<p>Set both participating Plugs dirty. </p>
 
 <p>Reimplemented from <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a0f3e881a92d7a1b4d6d07d9e63180c98">IPlug</a>.</p>
 
@@ -273,7 +277,7 @@ Public Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../db/d72/namespaceflowpipe_1_1plug.xhtml">plug</a>      </li>
       <li class="navelem"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml">InputPlug</a>      </li>
 
-    <li class="footer">Generated on Fri Apr 14 2017 23:05:42 for FlowPipe by
+    <li class="footer">Generated on Sat Apr 15 2017 04:14:35 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

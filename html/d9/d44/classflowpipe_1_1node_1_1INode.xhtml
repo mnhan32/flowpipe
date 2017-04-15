@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.xhtml"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.xhtml"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li>
@@ -105,7 +104,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 </div><!--header-->
 <div class="contents">
 <!-- doxytag: class="flowpipe::node::INode" -->
-<p>Holds inputs, outputs and a method for computing.  
+<p>Holds input and output Plugs and a method for computing.  
  <a href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#details">More...</a></p>
 
 <p><a href="../../d5/dd5/classflowpipe_1_1node_1_1INode-members.xhtml">List of all members.</a></p>
@@ -115,12 +114,19 @@ Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the input and output dictionaries and the name.  <a href="#ac775ee34451fdfa742b318538164070e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af3d9f88a3b255fd2c029a2b87a251c33">__unicode__</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all input and output Plugs.  <a href="#af3d9f88a3b255fd2c029a2b87a251c33"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aa7a4b9bc0941308e362738503137460e">__str__</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all input and output Plugs.  <a href="#aa7a4b9bc0941308e362738503137460e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87">is_dirty</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether any of the input Plug data has changed and is dirty.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a0b0cec4ec8d1e2b6f8b935c42dab4596">upstream_nodes</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The upper level Nodes that feed inputs into this Node.  <a href="#a0b0cec4ec8d1e2b6f8b935c42dab4596"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a846f352035c6d213232091026f2adcb4">downstream_nodes</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The next level Nodes that this Node feed outputs into.  <a href="#a846f352035c6d213232091026f2adcb4"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a500a2737f9f41878929da3a807e6e2c0">evaluate</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute this Node, log it and clean the input Plugs.  <a href="#a500a2737f9f41878929da3a807e6e2c0"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aaa2084b96999fb1734fd2f330bfa01a6">compute</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement the data manipulation in the subclass.  <a href="#aaa2084b96999fb1734fd2f330bfa01a6"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
@@ -131,7 +137,7 @@ Static Private Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#adfc4d1824f4ecdcbb04ceafc5bbc933e">__metaclass__</a> = ABCMeta</td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>Holds inputs, outputs and a method for computing. </p>
+<div class="textblock"><p>Holds input and output Plugs and a method for computing. </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a><!-- doxytag: member="flowpipe::node::INode::__init__" ref="ac775ee34451fdfa742b318538164070e" args="" -->
 <div class="memitem">
@@ -159,7 +165,7 @@ Static Private Attributes</h2></td></tr>
 <div class="memdoc">
 
 <p>Initialize the input and output dictionaries and the name. </p>
-<p>Args: name (str): If not provided, the class name is taken. </p>
+<p>Args: name (str): If not provided, the class name is used. </p>
 
 </div>
 </div>
@@ -178,7 +184,8 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000001">Todo:</a></b></dt><dd>documentation for __unicode__. </dd></dl>
+
+<p>Show all input and output Plugs. </p>
 
 </div>
 </div>
@@ -196,7 +203,8 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000002">Todo:</a></b></dt><dd>documentation for __str__. </dd></dl>
+
+<p>Show all input and output Plugs. </p>
 
 </div>
 </div>
@@ -214,7 +222,8 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000003">Todo:</a></b></dt><dd>documentation for is_dirty. </dd></dl>
+
+<p>Whether any of the input Plug data has changed and is dirty. </p>
 
 </div>
 </div>
@@ -232,7 +241,8 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000004">Todo:</a></b></dt><dd>documentation for upstream_nodes. </dd></dl>
+
+<p>The upper level Nodes that feed inputs into this Node. </p>
 
 </div>
 </div>
@@ -250,7 +260,8 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000005">Todo:</a></b></dt><dd>documentation for downstream_nodes. </dd></dl>
+
+<p>The next level Nodes that this Node feed outputs into. </p>
 
 </div>
 </div>
@@ -268,7 +279,8 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000006">Todo:</a></b></dt><dd>documentation for evaluate. </dd></dl>
+
+<p>Compute this Node, log it and clean the input Plugs. </p>
 
 </div>
 </div>
@@ -286,6 +298,9 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
+
+<p>Implement the data manipulation in the subclass. </p>
+<p>Also update the output Plugs through this function. </p>
 
 </div>
 </div>
@@ -367,7 +382,7 @@ Static Private Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../d2/d08/namespaceflowpipe_1_1node.xhtml">node</a>      </li>
       <li class="navelem"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a>      </li>
 
-    <li class="footer">Generated on Fri Apr 14 2017 23:05:42 for FlowPipe by
+    <li class="footer">Generated on Sat Apr 15 2017 04:14:35 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>

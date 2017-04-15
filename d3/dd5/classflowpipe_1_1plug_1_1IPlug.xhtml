@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.xhtml"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.xhtml"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li>
@@ -113,8 +112,8 @@ Inheritance diagram for IPlug:</div>
  <div class="center">
   <img src="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.png" usemap="#IPlug_map" alt=""/>
   <map id="IPlug_map" name="IPlug_map">
-<area href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="A InputPlug for a Connection." alt="InputPlug" shape="rect" coords="0,56,74,80"/>
-<area href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="A OutputPlug for a Connection." alt="OutputPlug" shape="rect" coords="84,56,158,80"/>
+<area href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug." alt="InputPlug" shape="rect" coords="0,56,74,80"/>
+<area href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug." alt="OutputPlug" shape="rect" coords="84,56,158,80"/>
 </map>
  </div></div>
 
@@ -123,16 +122,21 @@ Inheritance diagram for IPlug:</div>
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>.  <a href="#ac775ee34451fdfa742b318538164070e"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Interface.  <a href="#ac775ee34451fdfa742b318538164070e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#aa7a4b9bc0941308e362738503137460e">__str__</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The Plug as a pretty string.  <a href="#aa7a4b9bc0941308e362738503137460e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a36a504f395bb4949de19be7ef67f63de">__rshift__</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>.  <a href="#a36a504f395bb4949de19be7ef67f63de"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>.  <a href="#a36a504f395bb4949de19be7ef67f63de"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a8bb319ac0d6db2c3e60c4fb10d66173b">__lshift__</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a Connection to the given <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="A OutputPlug for a Connection.">OutputPlug</a>.  <a href="#a8bb319ac0d6db2c3e60c4fb10d66173b"></a><br/></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Break a connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>.  <a href="#a8bb319ac0d6db2c3e60c4fb10d66173b"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a9b4a741f6f43e79293e0172d97d5d386">value</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the value on this Plug.  <a href="#a9b4a741f6f43e79293e0172d97d5d386"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a9b4a741f6f43e79293e0172d97d5d386">value</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Plug dirty when the value is being changed.  <a href="#a9b4a741f6f43e79293e0172d97d5d386"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a0f3e881a92d7a1b4d6d07d9e63180c98">connect</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Has to be implemented in the subclass.  <a href="#a0f3e881a92d7a1b4d6d07d9e63180c98"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#afab97b4023d6e30d95344406b3655983">disconnect</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Break the connection to the given Plug.  <a href="#afab97b4023d6e30d95344406b3655983"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
@@ -146,6 +150,7 @@ Private Attributes</h2></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>The interface for the plugs. </p>
+<p>Plugs are associated with a Node and can be connected, disconnected and hold a value, that can be accesses by the associated Node. </p>
 </div><hr/><h2>Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="ac775ee34451fdfa742b318538164070e"></a><!-- doxytag: member="flowpipe::plug::IPlug::__init__" ref="ac775ee34451fdfa742b318538164070e" args="" -->
 <div class="memitem">
@@ -184,8 +189,8 @@ Private Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Initialize the <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>. </p>
-<p>Args: name (str): The name of the plug. node (INode): The Node holding the <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>. accepted_plugs (list of IPLug): Plugs for connections. </p>
+<p>Initialize the Interface. </p>
+<p>Args: name (str): The name of the Plug. node (INode): The Node holding the Plug. accepted_plugs (list of <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>): Plugs types that are possible for connections. </p>
 
 </div>
 </div>
@@ -204,7 +209,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000007">Todo:</a></b></dt><dd>documentation for __str__. </dd></dl>
+
+<p>The Plug as a pretty string. </p>
 
 </div>
 </div>
@@ -233,13 +239,8 @@ Private Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Create a Connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>. </p>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>The <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a> </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Create a connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>. </p>
+<p>Args: other (<a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>): The <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a> to connect to. </p>
 
 </div>
 </div>
@@ -268,13 +269,8 @@ Private Attributes</h2></td></tr>
 </div>
 <div class="memdoc">
 
-<p>Create a Connection to the given <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="A OutputPlug for a Connection.">OutputPlug</a>. </p>
-<dl class="params"><dt><b>Parameters:</b></dt><dd>
-  <table class="params">
-    <tr><td class="paramname">other</td><td>The <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="A OutputPlug for a Connection.">OutputPlug</a> </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Break a connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>. </p>
+<p>Args: other (<a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a>): The <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs.">IPlug</a> to disconnect. </p>
 
 </div>
 </div>
@@ -292,7 +288,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000008">Todo:</a></b></dt><dd>documentation for value. </dd></dl>
+
+<p>Access to the value on this Plug. </p>
 
 <p>Reimplemented in <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a9b4a741f6f43e79293e0172d97d5d386">OutputPlug</a>.</p>
 
@@ -322,7 +319,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000009">Todo:</a></b></dt><dd>documentation for value. </dd></dl>
+
+<p>Set the Plug dirty when the value is being changed. </p>
 
 <p>Reimplemented in <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a9b4a741f6f43e79293e0172d97d5d386">OutputPlug</a>.</p>
 
@@ -352,7 +350,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000010">Todo:</a></b></dt><dd>documentation for connect. </dd></dl>
+
+<p>Has to be implemented in the subclass. </p>
 
 <p>Reimplemented in <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a0f3e881a92d7a1b4d6d07d9e63180c98">InputPlug</a>, and <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a0f3e881a92d7a1b4d6d07d9e63180c98">OutputPlug</a>.</p>
 
@@ -382,7 +381,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000011">Todo:</a></b></dt><dd>documentation for disconnect. </dd></dl>
+
+<p>Break the connection to the given Plug. </p>
 
 </div>
 </div>
@@ -496,7 +496,7 @@ Private Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../db/d72/namespaceflowpipe_1_1plug.xhtml">plug</a>      </li>
       <li class="navelem"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml">IPlug</a>      </li>
 
-    <li class="footer">Generated on Fri Apr 14 2017 23:05:42 for FlowPipe by
+    <li class="footer">Generated on Sat Apr 15 2017 04:14:35 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
