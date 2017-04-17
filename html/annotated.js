@@ -5,5 +5,6 @@ var annotated =
     [ "InputPlug", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml", "de/dee/classflowpipe_1_1plug_1_1InputPlug" ],
     [ "IPlug", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml", "d3/dd5/classflowpipe_1_1plug_1_1IPlug" ],
     [ "LogObserver", "d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml", "d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver" ],
-    [ "OutputPlug", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug" ]
+    [ "OutputPlug", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug" ],
+    [ "ValueNode", "d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode.xhtml", "d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode" ]
 ];
