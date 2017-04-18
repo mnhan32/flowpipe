@@ -8,7 +8,7 @@ var classflowpipe_1_1node_1_1INode =
     [ "downstream_nodes", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a846f352035c6d213232091026f2adcb4", null ],
     [ "evaluate", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a500a2737f9f41878929da3a807e6e2c0", null ],
     [ "compute", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aaa2084b96999fb1734fd2f330bfa01a6", null ],
-    [ "_input_plug_set_dirty", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afb4059fa09d8ebc5778c1aedbb66a727", null ],
+    [ "on_input_plug_set_dirty", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a6119f091f35f892367c179bb2eabd2e9", null ],
     [ "__metaclass__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#adfc4d1824f4ecdcbb04ceafc5bbc933e", null ],
     [ "name", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151", null ],
     [ "inputs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54", null ],

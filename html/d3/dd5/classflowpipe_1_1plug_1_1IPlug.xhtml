@@ -133,6 +133,10 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the value on this Plug.  <a href="#a9b4a741f6f43e79293e0172d97d5d386"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a9b4a741f6f43e79293e0172d97d5d386">value</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Plug dirty when the value is being changed.  <a href="#a9b4a741f6f43e79293e0172d97d5d386"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87">is_dirty</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the dirty status on this Plug.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87">is_dirty</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Plug dirty informs the node this Plug belongs to.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a0f3e881a92d7a1b4d6d07d9e63180c98">connect</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Has to be implemented in the subclass.  <a href="#a0f3e881a92d7a1b4d6d07d9e63180c98"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#afab97b4023d6e30d95344406b3655983">disconnect</a></td></tr>
@@ -147,6 +151,7 @@ Public Attributes</h2></td></tr>
 <tr><td colspan="2"><h2><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934">_value</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f">_is_dirty</a></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock"><p>The interface for the plugs. </p>
@@ -328,6 +333,54 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a01ddb705f8bf4a7f65e048dd41e53d87"></a><!-- doxytag: member="flowpipe::plug::IPlug::is_dirty" ref="a01ddb705f8bf4a7f65e048dd41e53d87" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f">is_dirty</a> </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Access to the dirty status on this Plug. </p>
+
+</div>
+</div>
+<a class="anchor" id="a01ddb705f8bf4a7f65e048dd41e53d87"></a><!-- doxytag: member="flowpipe::plug::IPlug::is_dirty" ref="a01ddb705f8bf4a7f65e048dd41e53d87" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f">is_dirty</a> </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>status</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Set the Plug dirty informs the node this Plug belongs to. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0f3e881a92d7a1b4d6d07d9e63180c98"></a><!-- doxytag: member="flowpipe::plug::IPlug::connect" ref="a0f3e881a92d7a1b4d6d07d9e63180c98" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -458,6 +511,19 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f"></a><!-- doxytag: member="flowpipe::plug::IPlug::_is_dirty" ref="a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f">_is_dirty</a><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a11a064c92f179b2a2fb7751f8c86236f"></a><!-- doxytag: member="flowpipe::plug::IPlug::is_dirty" ref="a11a064c92f179b2a2fb7751f8c86236f" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -498,7 +564,7 @@ Private Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../db/d72/namespaceflowpipe_1_1plug.xhtml">plug</a>      </li>
       <li class="navelem"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml">IPlug</a>      </li>
 
-    <li class="footer">Generated on Tue Apr 18 2017 21:56:21 for FlowPipe by
+    <li class="footer">Generated on Tue Apr 18 2017 23:42:37 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
