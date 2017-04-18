@@ -98,6 +98,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a>  </div>
   <div class="headertitle">
 <div class="title">INode Class Reference</div>  </div>
@@ -141,6 +142,10 @@ Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54">inputs</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af8d743b78404b120589eca8c77c1c2a9">outputs</a></td></tr>
+<tr><td colspan="2"><h2><a name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afb4059fa09d8ebc5778c1aedbb66a727">_input_plug_set_dirty</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate the dirty state to the connected downstream nodes.  <a href="#afb4059fa09d8ebc5778c1aedbb66a727"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#adfc4d1824f4ecdcbb04ceafc5bbc933e">__metaclass__</a> = ABCMeta</td></tr>
@@ -315,6 +320,36 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afb4059fa09d8ebc5778c1aedbb66a727"></a><!-- doxytag: member="flowpipe::node::INode::_input_plug_set_dirty" ref="afb4059fa09d8ebc5778c1aedbb66a727" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afb4059fa09d8ebc5778c1aedbb66a727">_input_plug_set_dirty</a> </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>input_plug</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td><code> [private]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Propagate the dirty state to the connected downstream nodes. </p>
+<p>Args: input_plug (IPlug): The Plug that got set dirty. </p>
+
+</div>
+</div>
 <hr/><h2>Member Data Documentation</h2>
 <a class="anchor" id="adfc4d1824f4ecdcbb04ceafc5bbc933e"></a><!-- doxytag: member="flowpipe::node::INode::__metaclass__" ref="adfc4d1824f4ecdcbb04ceafc5bbc933e" args="" -->
 <div class="memitem">
@@ -393,7 +428,7 @@ Static Private Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../d2/d08/namespaceflowpipe_1_1node.xhtml">node</a>      </li>
       <li class="navelem"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a>      </li>
 
-    <li class="footer">Generated on Tue Apr 18 2017 03:47:44 for FlowPipe by
+    <li class="footer">Generated on Tue Apr 18 2017 21:56:21 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
