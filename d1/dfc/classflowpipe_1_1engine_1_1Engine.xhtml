@@ -96,99 +96,36 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
 <div id="doc-content">
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a>  </div>
+<a href="#pub-static-methods">Static Public Member Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Engine Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <!-- doxytag: class="flowpipe::engine::Engine" -->
-<p>Evaluate a graph of Nodes.  
+<p>Evaluate a Graph of Nodes.  
  <a href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#details">More...</a></p>
 
 <p><a href="../../d3/dbb/classflowpipe_1_1engine_1_1Engine-members.xhtml">List of all members.</a></p>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#ae21d805e8d05aa454e39967ed3a80304">evaluation_sequence</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The sequence in which the nodes need to be evaluated.  <a href="#ae21d805e8d05aa454e39967ed3a80304"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#a500a2737f9f41878929da3a807e6e2c0">evaluate</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the dirty nodes in the graph.  <a href="#a500a2737f9f41878929da3a807e6e2c0"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#aa9d2172187ee7654fa0a826e2928cf19">get_dirty_nodes</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether any of the given nodes needs evaluation.  <a href="#aa9d2172187ee7654fa0a826e2928cf19"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#aa1c8010fb2d6fbd12e6a3843a93d44f8">graph_is_dirty</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether any of the given nodes needs evaluation.  <a href="#aa1c8010fb2d6fbd12e6a3843a93d44f8"></a><br/></td></tr>
-<tr><td colspan="2"><h2><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#a6f93c3205dae603017fdb3e29b8f416b">_sort_node</a></td></tr>
-<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the node into the correct level.  <a href="#a6f93c3205dae603017fdb3e29b8f416b"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#abe01ea1b62a28411e1cfd80ffb861946">evaluate_entire_graph</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the dirty nodes in the graph.  <a href="#abe01ea1b62a28411e1cfd80ffb861946"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#a68606455c4ba15c73fdbde637225788e">evaluate_dirty_nodes</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate the dirty nodes in the graph.  <a href="#a68606455c4ba15c73fdbde637225788e"></a><br/></td></tr>
 </table>
 <hr/><a name="details" id="details"></a><h2>Detailed Description</h2>
-<div class="textblock"><p>Evaluate a graph of Nodes. </p>
+<div class="textblock"><p>Evaluate a Graph of Nodes. </p>
 </div><hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="ae21d805e8d05aa454e39967ed3a80304"></a><!-- doxytag: member="flowpipe::engine::Engine::evaluation_sequence" ref="ae21d805e8d05aa454e39967ed3a80304" args="" -->
+<a class="anchor" id="abe01ea1b62a28411e1cfd80ffb861946"></a><!-- doxytag: member="flowpipe::engine::Engine::evaluate_entire_graph" ref="abe01ea1b62a28411e1cfd80ffb861946" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#ae21d805e8d05aa454e39967ed3a80304">evaluation_sequence</a> </td>
+          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#abe01ea1b62a28411e1cfd80ffb861946">evaluate_entire_graph</a> </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes</em></td><td>)</td>
-          <td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>The sequence in which the nodes need to be evaluated. </p>
-
-</div>
-</div>
-<a class="anchor" id="a6f93c3205dae603017fdb3e29b8f416b"></a><!-- doxytag: member="flowpipe::engine::Engine::_sort_node" ref="a6f93c3205dae603017fdb3e29b8f416b" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#a6f93c3205dae603017fdb3e29b8f416b">_sort_node</a> </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>node</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>parent</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td><code> [static, private]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Sort the node into the correct level. </p>
-
-</div>
-</div>
-<a class="anchor" id="a500a2737f9f41878929da3a807e6e2c0"></a><!-- doxytag: member="flowpipe::engine::Engine::evaluate" ref="a500a2737f9f41878929da3a807e6e2c0" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#a500a2737f9f41878929da3a807e6e2c0">evaluate</a> </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes</em></td><td>)</td>
+          <td class="paramname"><em>graph</em></td><td>)</td>
           <td><code> [static]</code></td>
         </tr>
       </table>
@@ -199,41 +136,22 @@ Static Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa9d2172187ee7654fa0a826e2928cf19"></a><!-- doxytag: member="flowpipe::engine::Engine::get_dirty_nodes" ref="aa9d2172187ee7654fa0a826e2928cf19" args="" -->
+<a class="anchor" id="a68606455c4ba15c73fdbde637225788e"></a><!-- doxytag: member="flowpipe::engine::Engine::evaluate_dirty_nodes" ref="a68606455c4ba15c73fdbde637225788e" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#aa9d2172187ee7654fa0a826e2928cf19">get_dirty_nodes</a> </td>
+          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#a68606455c4ba15c73fdbde637225788e">evaluate_dirty_nodes</a> </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes</em></td><td>)</td>
+          <td class="paramname"><em>graph</em></td><td>)</td>
           <td><code> [static]</code></td>
         </tr>
       </table>
 </div>
 <div class="memdoc">
 
-<p>Test whether any of the given nodes needs evaluation. </p>
-
-</div>
-</div>
-<a class="anchor" id="aa1c8010fb2d6fbd12e6a3843a93d44f8"></a><!-- doxytag: member="flowpipe::engine::Engine::graph_is_dirty" ref="aa1c8010fb2d6fbd12e6a3843a93d44f8" args="" -->
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def <a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml#aa1c8010fb2d6fbd12e6a3843a93d44f8">graph_is_dirty</a> </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes</em></td><td>)</td>
-          <td><code> [static]</code></td>
-        </tr>
-      </table>
-</div>
-<div class="memdoc">
-
-<p>Test whether any of the given nodes needs evaluation. </p>
+<p>Evaluate the dirty nodes in the graph. </p>
 
 </div>
 </div>
@@ -262,7 +180,7 @@ Static Private Member Functions</h2></td></tr>
       <li class="navelem"><a class="el" href="../../d2/dca/namespaceflowpipe_1_1engine.xhtml">engine</a>      </li>
       <li class="navelem"><a class="el" href="../../d1/dfc/classflowpipe_1_1engine_1_1Engine.xhtml">Engine</a>      </li>
 
-    <li class="footer">Generated on Mon Apr 17 2017 05:16:07 for FlowPipe by
+    <li class="footer">Generated on Tue Apr 18 2017 03:47:44 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
