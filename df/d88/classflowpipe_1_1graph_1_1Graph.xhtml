@@ -128,6 +128,8 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether any of the given nodes needs evaluation.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae5266bb70bbd21ba673614b5b2a5c420">dirty_nodes</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether any of the given nodes needs evaluation.  <a href="#ae5266bb70bbd21ba673614b5b2a5c420"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a275373d48e63374460b876bfb87d34e6">all_nodes</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all nodes, also from subgraphs.  <a href="#a275373d48e63374460b876bfb87d34e6"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#accc3e6229fa0d147e75400cf3f1fb191">evaluation_grid</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">The nodes sorted into a 2D grid based on their dependency.  <a href="#accc3e6229fa0d147e75400cf3f1fb191"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae21d805e8d05aa454e39967ed3a80304">evaluation_sequence</a></td></tr>
@@ -242,6 +244,25 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a275373d48e63374460b876bfb87d34e6"></a><!-- doxytag: member="flowpipe::graph::Graph::all_nodes" ref="a275373d48e63374460b876bfb87d34e6" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a275373d48e63374460b876bfb87d34e6">all_nodes</a> </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Return all nodes, also from subgraphs. </p>
+
+</div>
+</div>
 <a class="anchor" id="accc3e6229fa0d147e75400cf3f1fb191"></a><!-- doxytag: member="flowpipe::graph::Graph::evaluation_grid" ref="accc3e6229fa0d147e75400cf3f1fb191" args="" -->
 <div class="memitem">
 <div class="memproto">
@@ -290,8 +311,18 @@ Private Member Functions</h2></td></tr>
           <td class="memname">def <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aaa2084b96999fb1734fd2f330bfa01a6">compute</a> </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div>
@@ -383,7 +414,7 @@ Private Member Functions</h2></td></tr>
       <li class="navelem"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml">graph</a>      </li>
       <li class="navelem"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a>      </li>
 
-    <li class="footer">Generated on Sat Apr 22 2017 04:42:41 for FlowPipe by
+    <li class="footer">Generated on Sat Apr 22 2017 05:16:20 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
