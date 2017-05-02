@@ -7,5 +7,6 @@ var searchData=
   ['node',['node',['../d2/d08/namespaceflowpipe_1_1node.xhtml',1,'flowpipe']]],
   ['nodes',['nodes',['../df/ded/namespaceflowpipe_1_1nodes.xhtml',1,'flowpipe']]],
   ['plug',['plug',['../db/d72/namespaceflowpipe_1_1plug.xhtml',1,'flowpipe']]],
+  ['task',['task',['../dd/d29/namespaceflowpipe_1_1task.xhtml',1,'flowpipe']]],
   ['value_5fnode',['value_node',['../de/d5a/namespaceflowpipe_1_1nodes_1_1value__node.xhtml',1,'flowpipe::nodes']]]
 ];

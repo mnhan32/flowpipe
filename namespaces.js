@@ -7,5 +7,6 @@ var namespaces =
     [ "flowpipe::node", "d2/d08/namespaceflowpipe_1_1node.xhtml", "d2/d08/namespaceflowpipe_1_1node" ],
     [ "flowpipe::nodes", "df/ded/namespaceflowpipe_1_1nodes.xhtml", null ],
     [ "flowpipe::nodes::value_node", "de/d5a/namespaceflowpipe_1_1nodes_1_1value__node.xhtml", "de/d5a/namespaceflowpipe_1_1nodes_1_1value__node" ],
-    [ "flowpipe::plug", "db/d72/namespaceflowpipe_1_1plug.xhtml", "db/d72/namespaceflowpipe_1_1plug" ]
+    [ "flowpipe::plug", "db/d72/namespaceflowpipe_1_1plug.xhtml", "db/d72/namespaceflowpipe_1_1plug" ],
+    [ "flowpipe::task", "dd/d29/namespaceflowpipe_1_1task.xhtml", "dd/d29/namespaceflowpipe_1_1task" ]
 ];
