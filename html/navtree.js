@@ -1,7 +1,6 @@
 var NAVTREE =
 [
   [ "FlowPipe", "index.xhtml", [
-    [ "Related Pages", "pages.xhtml", "pages" ],
     [ "Namespaces", null, [
       [ "Namespace List", "namespaces.xhtml", "namespaces" ],
       [ "Namespace Members", "namespacemembers.xhtml", [

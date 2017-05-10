@@ -52,7 +52,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.xhtml"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.xhtml"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li>
@@ -141,10 +140,14 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement the data manipulation in the subclass.  <a href="#aaa2084b96999fb1734fd2f330bfa01a6"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a6119f091f35f892367c179bb2eabd2e9">on_input_plug_set_dirty</a></td></tr>
 <tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate the dirty state to the connected downstream nodes.  <a href="#a6119f091f35f892367c179bb2eabd2e9"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab8ef5e3fd7a86c440b3e5a6475bb63d9">dump</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a668852ee76cabc3befb339df84d9e61a">serialize</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the node to json.  <a href="#a668852ee76cabc3befb339df84d9e61a"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a93e3d97c8d85c4195112b09c61729434">deserialize</a></td></tr>
+<tr><td class="mdescLeft">&#160;</td><td class="mdescRight">De-serialize from the given json data.  <a href="#a93e3d97c8d85c4195112b09c61729434"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902">identifier</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54">inputs</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af8d743b78404b120589eca8c77c1c2a9">outputs</a></td></tr>
 <tr><td colspan="2"><h2><a name="pri-static-attribs"></a>
@@ -168,7 +171,13 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>name</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>name</em> = <code>None</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>identifier</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -182,7 +191,7 @@ Static Private Attributes</h2></td></tr>
 <p>Initialize the input and output dictionaries and the name. </p>
 <p>Args: name (str): If not provided, the class name is used. </p>
 
-<p>Reimplemented in <a class="el" href="../../d1/d1f/classflowpipe_1_1task_1_1TestNode.xhtml#ac775ee34451fdfa742b318538164070e">TestNode</a>.</p>
+<p>Reimplemented in <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ac775ee34451fdfa742b318538164070e">Graph</a>, and <a class="el" href="../../d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode.xhtml#ac775ee34451fdfa742b318538164070e">ValueNode</a>.</p>
 
 </div>
 </div>
@@ -367,12 +376,12 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab8ef5e3fd7a86c440b3e5a6475bb63d9"></a><!-- doxytag: member="flowpipe::node::INode::dump" ref="ab8ef5e3fd7a86c440b3e5a6475bb63d9" args="" -->
+<a class="anchor" id="a668852ee76cabc3befb339df84d9e61a"></a><!-- doxytag: member="flowpipe::node::INode::serialize" ref="a668852ee76cabc3befb339df84d9e61a" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab8ef5e3fd7a86c440b3e5a6475bb63d9">dump</a> </td>
+          <td class="memname">def <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a668852ee76cabc3befb339df84d9e61a">serialize</a> </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -381,7 +390,37 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div>
 <div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../dd/da0/todo.xhtml#_todo000001">Todo:</a></b></dt><dd>documentation for dump. </dd></dl>
+
+<p>Serialize the node to json. </p>
+
+</div>
+</div>
+<a class="anchor" id="a93e3d97c8d85c4195112b09c61729434"></a><!-- doxytag: member="flowpipe::node::INode::deserialize" ref="a93e3d97c8d85c4195112b09c61729434" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a93e3d97c8d85c4195112b09c61729434">deserialize</a> </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>De-serialize from the given json data. </p>
 
 </div>
 </div>
@@ -405,6 +444,19 @@ Static Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afc486b0767ef05e2dc12f5b98be72902"></a><!-- doxytag: member="flowpipe::node::INode::identifier" ref="afc486b0767ef05e2dc12f5b98be72902" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902">identifier</a></td>
         </tr>
       </table>
 </div>
@@ -463,7 +515,7 @@ Static Private Attributes</h2></td></tr>
       <li class="navelem"><a class="el" href="../../d2/d08/namespaceflowpipe_1_1node.xhtml">node</a>      </li>
       <li class="navelem"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a>      </li>
 
-    <li class="footer">Generated on Tue May 2 2017 04:04:01 for FlowPipe by
+    <li class="footer">Generated on Wed May 10 2017 01:15:52 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.7.6.1 </li>
    </ul>
