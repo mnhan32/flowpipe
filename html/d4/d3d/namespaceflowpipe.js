@@ -1,7 +1,9 @@
 var namespaceflowpipe =
 [
-    [ "PACKAGE", "d4/d3d/namespaceflowpipe.xhtml#a3fc64bcd833351c4f7b55c634742fa15", null ],
-    [ "logger", "d4/d3d/namespaceflowpipe.xhtml#ae5cceaf3146d363696fb4d4691bc3870", null ],
-    [ "ch", "d4/d3d/namespaceflowpipe.xhtml#a4a9a24b9bb09b6c3a4f20833ec66f098", null ],
-    [ "formatter", "d4/d3d/namespaceflowpipe.xhtml#a2d7337e0b10a7d393b4de67ba75eec7e", null ]
+    [ "engine", "d2/dca/namespaceflowpipe_1_1engine.xhtml", "d2/dca/namespaceflowpipe_1_1engine" ],
+    [ "graph", "d0/d6b/namespaceflowpipe_1_1graph.xhtml", "d0/d6b/namespaceflowpipe_1_1graph" ],
+    [ "log_observer", "d8/db1/namespaceflowpipe_1_1log__observer.xhtml", "d8/db1/namespaceflowpipe_1_1log__observer" ],
+    [ "node", "d2/d08/namespaceflowpipe_1_1node.xhtml", "d2/d08/namespaceflowpipe_1_1node" ],
+    [ "nodes", "df/ded/namespaceflowpipe_1_1nodes.xhtml", "df/ded/namespaceflowpipe_1_1nodes" ],
+    [ "plug", "db/d72/namespaceflowpipe_1_1plug.xhtml", "db/d72/namespaceflowpipe_1_1plug" ]
 ];
