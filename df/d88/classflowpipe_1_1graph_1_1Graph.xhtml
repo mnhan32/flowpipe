@@ -45,7 +45,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.xhtml"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.xhtml"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li>
@@ -94,7 +93,7 @@ $(document).ready(function(){initNavTree('df/d88/classflowpipe_1_1graph_1_1Graph
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -122,6 +121,7 @@ Inheritance diagram for Graph:</div>
  <div class="center">
   <img src="../../df/d88/classflowpipe_1_1graph_1_1Graph.png" usemap="#Graph_map" alt=""/>
   <map id="Graph_map" name="Graph_map">
+<area href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml" title="Holds input and output Plugs and a method for computing. " alt="INode" shape="rect" coords="0,56,47,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -143,10 +143,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a275373d48e63374460b876bfb87d34e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all nodes, also from subgraphs.  <a href="#a275373d48e63374460b876bfb87d34e6">More...</a><br/></td></tr>
 <tr class="separator:a275373d48e63374460b876bfb87d34e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accc3e6229fa0d147e75400cf3f1fb191"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#accc3e6229fa0d147e75400cf3f1fb191">evaluation_grid</a></td></tr>
-<tr class="memdesc:accc3e6229fa0d147e75400cf3f1fb191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort nodes into a 2D grid based on their dependency.  <a href="#accc3e6229fa0d147e75400cf3f1fb191">More...</a><br/></td></tr>
+<tr class="memdesc:accc3e6229fa0d147e75400cf3f1fb191"><td class="mdescLeft">&#160;</td><td class="mdescRight">The nodes sorted into a 2D grid based on their dependency.  <a href="#accc3e6229fa0d147e75400cf3f1fb191">More...</a><br/></td></tr>
 <tr class="separator:accc3e6229fa0d147e75400cf3f1fb191"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21d805e8d05aa454e39967ed3a80304"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae21d805e8d05aa454e39967ed3a80304">evaluation_sequence</a></td></tr>
-<tr class="memdesc:ae21d805e8d05aa454e39967ed3a80304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort Nodes into a sequential, flat execution order.  <a href="#ae21d805e8d05aa454e39967ed3a80304">More...</a><br/></td></tr>
+<tr class="memdesc:ae21d805e8d05aa454e39967ed3a80304"><td class="mdescLeft">&#160;</td><td class="mdescRight">A flat sequence in which the nodes need to be evaluated.  <a href="#ae21d805e8d05aa454e39967ed3a80304">More...</a><br/></td></tr>
 <tr class="separator:ae21d805e8d05aa454e39967ed3a80304"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa2084b96999fb1734fd2f330bfa01a6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aaa2084b96999fb1734fd2f330bfa01a6">compute</a></td></tr>
 <tr class="memdesc:aaa2084b96999fb1734fd2f330bfa01a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all sub nodes.  <a href="#aaa2084b96999fb1734fd2f330bfa01a6">More...</a><br/></td></tr>
@@ -154,11 +154,54 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a668852ee76cabc3befb339df84d9e61a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a668852ee76cabc3befb339df84d9e61a">serialize</a></td></tr>
 <tr class="memdesc:a668852ee76cabc3befb339df84d9e61a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the graph in it's grid form.  <a href="#a668852ee76cabc3befb339df84d9e61a">More...</a><br/></td></tr>
 <tr class="separator:a668852ee76cabc3befb339df84d9e61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classflowpipe_1_1node_1_1INode"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classflowpipe_1_1node_1_1INode')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a></td></tr>
+<tr class="memitem:ac775ee34451fdfa742b318538164070e inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ac775ee34451fdfa742b318538164070e">__init__</a></td></tr>
+<tr class="memdesc:ac775ee34451fdfa742b318538164070e inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the input and output dictionaries and the name.  <a href="#ac775ee34451fdfa742b318538164070e">More...</a><br/></td></tr>
+<tr class="separator:ac775ee34451fdfa742b318538164070e inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3d9f88a3b255fd2c029a2b87a251c33 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af3d9f88a3b255fd2c029a2b87a251c33">__unicode__</a></td></tr>
+<tr class="memdesc:af3d9f88a3b255fd2c029a2b87a251c33 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all input and output Plugs.  <a href="#af3d9f88a3b255fd2c029a2b87a251c33">More...</a><br/></td></tr>
+<tr class="separator:af3d9f88a3b255fd2c029a2b87a251c33 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a4b9bc0941308e362738503137460e inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aa7a4b9bc0941308e362738503137460e">__str__</a></td></tr>
+<tr class="memdesc:aa7a4b9bc0941308e362738503137460e inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all input and output Plugs.  <a href="#aa7a4b9bc0941308e362738503137460e">More...</a><br/></td></tr>
+<tr class="separator:aa7a4b9bc0941308e362738503137460e inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01ddb705f8bf4a7f65e048dd41e53d87 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87">is_dirty</a></td></tr>
+<tr class="memdesc:a01ddb705f8bf4a7f65e048dd41e53d87 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether any of the input Plug data has changed and is dirty.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87">More...</a><br/></td></tr>
+<tr class="separator:a01ddb705f8bf4a7f65e048dd41e53d87 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a0b0cec4ec8d1e2b6f8b935c42dab4596">upstream_nodes</a></td></tr>
+<tr class="memdesc:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">The upper level Nodes that feed inputs into this Node.  <a href="#a0b0cec4ec8d1e2b6f8b935c42dab4596">More...</a><br/></td></tr>
+<tr class="separator:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a846f352035c6d213232091026f2adcb4">downstream_nodes</a></td></tr>
+<tr class="memdesc:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">The next level Nodes that this Node feed outputs into.  <a href="#a846f352035c6d213232091026f2adcb4">More...</a><br/></td></tr>
+<tr class="separator:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a500a2737f9f41878929da3a807e6e2c0 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a500a2737f9f41878929da3a807e6e2c0">evaluate</a></td></tr>
+<tr class="memdesc:a500a2737f9f41878929da3a807e6e2c0 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute this Node, log it and clean the input Plugs.  <a href="#a500a2737f9f41878929da3a807e6e2c0">More...</a><br/></td></tr>
+<tr class="separator:a500a2737f9f41878929da3a807e6e2c0 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2084b96999fb1734fd2f330bfa01a6 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aaa2084b96999fb1734fd2f330bfa01a6">compute</a></td></tr>
+<tr class="memdesc:aaa2084b96999fb1734fd2f330bfa01a6 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implement the data manipulation in the subclass.  <a href="#aaa2084b96999fb1734fd2f330bfa01a6">More...</a><br/></td></tr>
+<tr class="separator:aaa2084b96999fb1734fd2f330bfa01a6 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6119f091f35f892367c179bb2eabd2e9 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a6119f091f35f892367c179bb2eabd2e9">on_input_plug_set_dirty</a></td></tr>
+<tr class="memdesc:a6119f091f35f892367c179bb2eabd2e9 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Propagate the dirty state to the connected downstream nodes.  <a href="#a6119f091f35f892367c179bb2eabd2e9">More...</a><br/></td></tr>
+<tr class="separator:a6119f091f35f892367c179bb2eabd2e9 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a668852ee76cabc3befb339df84d9e61a inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a668852ee76cabc3befb339df84d9e61a">serialize</a></td></tr>
+<tr class="memdesc:a668852ee76cabc3befb339df84d9e61a inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the node to json.  <a href="#a668852ee76cabc3befb339df84d9e61a">More...</a><br/></td></tr>
+<tr class="separator:a668852ee76cabc3befb339df84d9e61a inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e3d97c8d85c4195112b09c61729434 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a93e3d97c8d85c4195112b09c61729434">deserialize</a></td></tr>
+<tr class="memdesc:a93e3d97c8d85c4195112b09c61729434 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-serialize from the given json data.  <a href="#a93e3d97c8d85c4195112b09c61729434">More...</a><br/></td></tr>
+<tr class="separator:a93e3d97c8d85c4195112b09c61729434 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a6da5270e48c8b5c2f0dbaa008af4df76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76">nodes</a></td></tr>
 <tr class="separator:a6da5270e48c8b5c2f0dbaa008af4df76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_classflowpipe_1_1node_1_1INode"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classflowpipe_1_1node_1_1INode')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a></td></tr>
+<tr class="memitem:ab74e6bf80237ddc4109968cedc58c151 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
+<tr class="separator:ab74e6bf80237ddc4109968cedc58c151 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc486b0767ef05e2dc12f5b98be72902 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902">identifier</a></td></tr>
+<tr class="separator:afc486b0767ef05e2dc12f5b98be72902 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde3b66b6b41bd008469f366fa756e54 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54">inputs</a></td></tr>
+<tr class="separator:afde3b66b6b41bd008469f366fa756e54 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d743b78404b120589eca8c77c1c2a9 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af8d743b78404b120589eca8c77c1c2a9">outputs</a></td></tr>
+<tr class="separator:af8d743b78404b120589eca8c77c1c2a9 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -290,9 +333,8 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sort nodes into a 2D grid based on their dependency. </p>
-<p>Rows affect each other and have to be evaluated in sequence. The Nodes on each row however can be evaluated in parallel as they are independent of each other. The amount of Nodes in each row can vary.</p>
-<p>Returns: (list of list of INode): Each sub list represents a row. </p>
+<p>The nodes sorted into a 2D grid based on their dependency. </p>
+<p>Rows affect each other and have to be evaluated in sequence. The Nodes on each row however can be evaluated in parallel as they are independent of each other. The amount of Nodes in each row can vary. Returns: (list of list of INode): Each sub list represents a row. </p>
 
 </div>
 </div>
@@ -310,7 +352,7 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sort Nodes into a sequential, flat execution order. </p>
+<p>A flat sequence in which the nodes need to be evaluated. </p>
 <p>Returns: (list of INode): A one dimensional representation of the evaluation grid. </p>
 
 </div>
@@ -431,7 +473,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d3d/namespaceflowpipe.xhtml">flowpipe</a></li><li class="navelem"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml">graph</a></li><li class="navelem"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a></li>
-    <li class="footer">Generated on Sun Sep 17 2017 12:31:56 for FlowPipe by
+    <li class="footer">Generated on Sun Sep 17 2017 12:35:11 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

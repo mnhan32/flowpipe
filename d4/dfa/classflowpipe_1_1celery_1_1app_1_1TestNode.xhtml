@@ -45,7 +45,6 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="../../index.xhtml"><span>Main&#160;Page</span></a></li>
-      <li><a href="../../pages.xhtml"><span>Related&#160;Pages</span></a></li>
       <li><a href="../../namespaces.xhtml"><span>Namespaces</span></a></li>
       <li class="current"><a href="../../annotated.xhtml"><span>Classes</span></a></li>
       <li>
@@ -94,7 +93,7 @@ $(document).ready(function(){initNavTree('d4/dfa/classflowpipe_1_1celery_1_1app_
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -142,10 +141,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a01ddb705f8bf4a7f65e048dd41e53d87 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether any of the input Plug data has changed and is dirty.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87">More...</a><br/></td></tr>
 <tr class="separator:a01ddb705f8bf4a7f65e048dd41e53d87 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a0b0cec4ec8d1e2b6f8b935c42dab4596">upstream_nodes</a></td></tr>
-<tr class="memdesc:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Upper level Nodes feed inputs into this Node.  <a href="#a0b0cec4ec8d1e2b6f8b935c42dab4596">More...</a><br/></td></tr>
+<tr class="memdesc:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">The upper level Nodes that feed inputs into this Node.  <a href="#a0b0cec4ec8d1e2b6f8b935c42dab4596">More...</a><br/></td></tr>
 <tr class="separator:a0b0cec4ec8d1e2b6f8b935c42dab4596 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a846f352035c6d213232091026f2adcb4">downstream_nodes</a></td></tr>
-<tr class="memdesc:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">This node feeds outputs to these Nodes.  <a href="#a846f352035c6d213232091026f2adcb4">More...</a><br/></td></tr>
+<tr class="memdesc:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">The next level Nodes that this Node feed outputs into.  <a href="#a846f352035c6d213232091026f2adcb4">More...</a><br/></td></tr>
 <tr class="separator:a846f352035c6d213232091026f2adcb4 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a500a2737f9f41878929da3a807e6e2c0 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a500a2737f9f41878929da3a807e6e2c0">evaluate</a></td></tr>
 <tr class="memdesc:a500a2737f9f41878929da3a807e6e2c0 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute this Node, log it and clean the input Plugs.  <a href="#a500a2737f9f41878929da3a807e6e2c0">More...</a><br/></td></tr>
@@ -159,13 +158,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a668852ee76cabc3befb339df84d9e61a inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a668852ee76cabc3befb339df84d9e61a">serialize</a></td></tr>
 <tr class="memdesc:a668852ee76cabc3befb339df84d9e61a inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the node to json.  <a href="#a668852ee76cabc3befb339df84d9e61a">More...</a><br/></td></tr>
 <tr class="separator:a668852ee76cabc3befb339df84d9e61a inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93e3d97c8d85c4195112b09c61729434 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a93e3d97c8d85c4195112b09c61729434">deserialize</a></td></tr>
+<tr class="memdesc:a93e3d97c8d85c4195112b09c61729434 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-serialize from the given json data.  <a href="#a93e3d97c8d85c4195112b09c61729434">More...</a><br/></td></tr>
+<tr class="separator:a93e3d97c8d85c4195112b09c61729434 inherit pub_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_static_methods_classflowpipe_1_1node_1_1INode"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classflowpipe_1_1node_1_1INode')"><img src="../../closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a></td></tr>
-<tr class="memitem:a93e3d97c8d85c4195112b09c61729434 inherit pub_static_methods_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a93e3d97c8d85c4195112b09c61729434">deserialize</a></td></tr>
-<tr class="memdesc:a93e3d97c8d85c4195112b09c61729434 inherit pub_static_methods_classflowpipe_1_1node_1_1INode"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-serialize from the given json data.  <a href="#a93e3d97c8d85c4195112b09c61729434">More...</a><br/></td></tr>
-<tr class="separator:a93e3d97c8d85c4195112b09c61729434 inherit pub_static_methods_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_attribs_classflowpipe_1_1node_1_1INode"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classflowpipe_1_1node_1_1INode')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a></td></tr>
 <tr class="memitem:ab74e6bf80237ddc4109968cedc58c151 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
 <tr class="separator:ab74e6bf80237ddc4109968cedc58c151 inherit pub_attribs_classflowpipe_1_1node_1_1INode"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,7 +245,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d3d/namespaceflowpipe.xhtml">flowpipe</a></li><li class="navelem"><a class="el" href="../../dd/d2a/namespaceflowpipe_1_1celery.xhtml">celery</a></li><li class="navelem"><a class="el" href="../../d3/db9/namespaceflowpipe_1_1celery_1_1app.xhtml">app</a></li><li class="navelem"><a class="el" href="../../d4/dfa/classflowpipe_1_1celery_1_1app_1_1TestNode.xhtml">TestNode</a></li>
-    <li class="footer">Generated on Sun Sep 17 2017 12:31:56 for FlowPipe by
+    <li class="footer">Generated on Sun Sep 17 2017 12:35:11 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
