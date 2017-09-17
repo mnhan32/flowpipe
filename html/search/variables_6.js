@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['name',['name',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.node.INode.name()'],['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.plug.IPlug.name()']]],
-  ['node',['node',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0',1,'flowpipe::plug::IPlug']]],
-  ['nodes',['nodes',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76',1,'flowpipe::graph::Graph']]]
+  ['identifier',['identifier',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902',1,'flowpipe::node::INode']]],
+  ['inputs',['inputs',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54',1,'flowpipe::node::INode']]],
+  ['is_5fdirty',['is_dirty',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.IPlug.is_dirty()'],['../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.OutputPlug.is_dirty()'],['../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.InputPlug.is_dirty()']]]
 ];

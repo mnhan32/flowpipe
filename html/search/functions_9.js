@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['serialize',['serialize',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a668852ee76cabc3befb339df84d9e61a',1,'flowpipe.graph.Graph.serialize()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a668852ee76cabc3befb339df84d9e61a',1,'flowpipe.node.INode.serialize()'],['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a668852ee76cabc3befb339df84d9e61a',1,'flowpipe.plug.IPlug.serialize()']]]
+  ['register_5flistener',['register_listener',['../d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#aa530686d3f1a065fdfcf6c11c63ea555',1,'flowpipe::log_observer::LogObserver']]]
 ];
