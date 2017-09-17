@@ -7,11 +7,11 @@
 
 var indexSectionsWithContent =
 {
-  0: "_acdefgilnoprstuv",
-  1: "egilotv",
+  0: "_acdefghilnoprstuv",
+  1: "giloptv",
   2: "f",
   3: "_acdefioprsuv",
-  4: "_acfgilnoprv"
+  4: "_acfghilnoprv"
 };
 
 var indexSectionNames =
