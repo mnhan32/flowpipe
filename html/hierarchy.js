@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "object", null, [
       [ "IEngine", "d7/d0d/classflowpipe_1_1engine_1_1IEngine.xhtml", [
+        [ "MayapyEngine", "d4/d92/classflowpipe_1_1engines_1_1mayapy__engine_1_1MayapyEngine.xhtml", null ],
         [ "PythonEngine", "d1/d66/classflowpipe_1_1engines_1_1python__engine_1_1PythonEngine.xhtml", null ]
       ] ],
       [ "LogObserver", "d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml", null ],
