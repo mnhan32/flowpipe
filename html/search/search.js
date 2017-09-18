@@ -7,11 +7,12 @@
 
 var indexSectionsWithContent =
 {
-  0: "_acdefghilnoprstuv",
-  1: "giloptv",
+  0: "_acdefghilmnoprstuv",
+  1: "gilmoptv",
   2: "f",
   3: "_acdefioprsuv",
-  4: "_acfghilnoprv"
+  4: "_acfghilmnoprv",
+  5: "t"
 };
 
 var indexSectionNames =
@@ -20,7 +21,8 @@ var indexSectionNames =
   1: "classes",
   2: "namespaces",
   3: "functions",
-  4: "variables"
+  4: "variables",
+  5: "pages"
 };
 
 function convertToId(search)
