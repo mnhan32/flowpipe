@@ -9,6 +9,7 @@ var classflowpipe_1_1graph_1_1Graph =
     [ "evaluation_sequence", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae21d805e8d05aa454e39967ed3a80304", null ],
     [ "compute", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aaa2084b96999fb1734fd2f330bfa01a6", null ],
     [ "serialize", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a668852ee76cabc3befb339df84d9e61a", null ],
+    [ "deserialize", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a93e3d97c8d85c4195112b09c61729434", null ],
     [ "_sort_node", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6f93c3205dae603017fdb3e29b8f416b", null ],
     [ "nodes", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76", null ]
 ];
