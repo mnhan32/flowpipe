@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['identifier',['identifier',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902',1,'flowpipe::node::INode']]],
-  ['inputs',['inputs',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54',1,'flowpipe::node::INode']]],
-  ['is_5fdirty',['is_dirty',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.IPlug.is_dirty()'],['../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.OutputPlug.is_dirty()'],['../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.InputPlug.is_dirty()']]]
+  ['listeners',['listeners',['../d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#a7a3ecd1ae80e02426f5fa787978ed472',1,'flowpipe::log_observer::LogObserver']]],
+  ['logger',['logger',['../d4/d3d/namespaceflowpipe.xhtml#ae5cceaf3146d363696fb4d4691bc3870',1,'flowpipe']]]
 ];
