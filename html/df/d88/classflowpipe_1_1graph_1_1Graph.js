@@ -5,7 +5,7 @@ var classflowpipe_1_1graph_1_1Graph =
     [ "is_dirty", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87", null ],
     [ "dirty_nodes", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae5266bb70bbd21ba673614b5b2a5c420", null ],
     [ "all_nodes", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a275373d48e63374460b876bfb87d34e6", null ],
-    [ "evaluation_grid", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#accc3e6229fa0d147e75400cf3f1fb191", null ],
+    [ "evaluation_matrix", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a5f86c24545590a6e223654e80bf926ad", null ],
     [ "evaluation_sequence", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae21d805e8d05aa454e39967ed3a80304", null ],
     [ "compute", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aaa2084b96999fb1734fd2f330bfa01a6", null ],
     [ "serialize", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a668852ee76cabc3befb339df84d9e61a", null ],

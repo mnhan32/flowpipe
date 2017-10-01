@@ -131,7 +131,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ac775ee34451fdfa742b318538164070e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the list of Nodes.  <a href="#ac775ee34451fdfa742b318538164070e">More...</a><br/></td></tr>
 <tr class="separator:ac775ee34451fdfa742b318538164070e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3d9f88a3b255fd2c029a2b87a251c33"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#af3d9f88a3b255fd2c029a2b87a251c33">__unicode__</a></td></tr>
-<tr class="memdesc:af3d9f88a3b255fd2c029a2b87a251c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all input and output Plugs.  <a href="#af3d9f88a3b255fd2c029a2b87a251c33">More...</a><br/></td></tr>
+<tr class="memdesc:af3d9f88a3b255fd2c029a2b87a251c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a>.  <a href="#af3d9f88a3b255fd2c029a2b87a251c33">More...</a><br/></td></tr>
 <tr class="separator:af3d9f88a3b255fd2c029a2b87a251c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01ddb705f8bf4a7f65e048dd41e53d87"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87">is_dirty</a></td></tr>
 <tr class="memdesc:a01ddb705f8bf4a7f65e048dd41e53d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether any of the given nodes needs evaluation.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87">More...</a><br/></td></tr>
@@ -142,9 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a275373d48e63374460b876bfb87d34e6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a275373d48e63374460b876bfb87d34e6">all_nodes</a></td></tr>
 <tr class="memdesc:a275373d48e63374460b876bfb87d34e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return all nodes, also from subgraphs.  <a href="#a275373d48e63374460b876bfb87d34e6">More...</a><br/></td></tr>
 <tr class="separator:a275373d48e63374460b876bfb87d34e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc3e6229fa0d147e75400cf3f1fb191"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#accc3e6229fa0d147e75400cf3f1fb191">evaluation_grid</a></td></tr>
-<tr class="memdesc:accc3e6229fa0d147e75400cf3f1fb191"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort nodes into a 2D grid based on their dependency.  <a href="#accc3e6229fa0d147e75400cf3f1fb191">More...</a><br/></td></tr>
-<tr class="separator:accc3e6229fa0d147e75400cf3f1fb191"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f86c24545590a6e223654e80bf926ad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a5f86c24545590a6e223654e80bf926ad">evaluation_matrix</a></td></tr>
+<tr class="memdesc:a5f86c24545590a6e223654e80bf926ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort nodes into a 2D grid based on their dependency.  <a href="#a5f86c24545590a6e223654e80bf926ad">More...</a><br/></td></tr>
+<tr class="separator:a5f86c24545590a6e223654e80bf926ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae21d805e8d05aa454e39967ed3a80304"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae21d805e8d05aa454e39967ed3a80304">evaluation_sequence</a></td></tr>
 <tr class="memdesc:ae21d805e8d05aa454e39967ed3a80304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort Nodes into a sequential, flat execution order.  <a href="#ae21d805e8d05aa454e39967ed3a80304">More...</a><br/></td></tr>
 <tr class="separator:ae21d805e8d05aa454e39967ed3a80304"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,7 +195,7 @@ Private Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes</em> = <code>[]</code>&#160;</td>
+          <td class="paramname"><em>nodes</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -224,7 +224,7 @@ Private Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Show all input and output Plugs. </p>
+<p>Display the <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a>. </p>
 
 </div>
 </div>
@@ -282,12 +282,12 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="accc3e6229fa0d147e75400cf3f1fb191"></a>
+<a class="anchor" id="a5f86c24545590a6e223654e80bf926ad"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def evaluation_grid </td>
+          <td class="memname">def evaluation_matrix </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -463,7 +463,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d3d/namespaceflowpipe.xhtml">flowpipe</a></li><li class="navelem"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml">graph</a></li><li class="navelem"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a></li>
-    <li class="footer">Generated on Sat Sep 23 2017 14:10:30 for FlowPipe by
+    <li class="footer">Generated on Sun Oct 1 2017 11:32:50 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
