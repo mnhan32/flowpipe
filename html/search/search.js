@@ -8,9 +8,9 @@
 var indexSectionsWithContent =
 {
   0: "_acdefghilnoprsuv",
-  1: "gilopv",
+  1: "fgilopv",
   2: "f",
-  3: "_acdeioprsuv",
+  3: "_acdefioprsuv",
   4: "_acfhilnopv"
 };
 

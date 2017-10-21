@@ -122,7 +122,8 @@ Inheritance diagram for INode:</div>
  <div class="center">
   <img src="../../d9/d44/classflowpipe_1_1node_1_1INode.png" usemap="#INode_map" alt=""/>
   <map id="INode_map" name="INode_map">
-<area href="../../d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode.xhtml" title="Holding a simple value. " alt="ValueNode" shape="rect" coords="0,112,75,136"/>
+<area href="../../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml" title="Wrap a function into a Node. " alt="FunctionNode" shape="rect" coords="0,112,91,136"/>
+<area href="../../d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode.xhtml" title="Holding a simple value. " alt="ValueNode" shape="rect" coords="101,112,192,136"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -158,6 +159,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a668852ee76cabc3befb339df84d9e61a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a668852ee76cabc3befb339df84d9e61a">serialize</a></td></tr>
 <tr class="memdesc:a668852ee76cabc3befb339df84d9e61a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the node to json.  <a href="#a668852ee76cabc3befb339df84d9e61a">More...</a><br/></td></tr>
 <tr class="separator:a668852ee76cabc3befb339df84d9e61a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5f57cbc87525f74b906b8b2b78b2b4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a4a5f57cbc87525f74b906b8b2b78b2b4">post_deserialize</a></td></tr>
+<tr class="memdesc:a4a5f57cbc87525f74b906b8b2b78b2b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform more data operations after initial serialization.  <a href="#a4a5f57cbc87525f74b906b8b2b78b2b4">More...</a><br/></td></tr>
+<tr class="separator:a4a5f57cbc87525f74b906b8b2b78b2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -436,6 +440,34 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a4a5f57cbc87525f74b906b8b2b78b2b4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def post_deserialize </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Perform more data operations after initial serialization. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="adfc4d1824f4ecdcbb04ceafc5bbc933e"></a>
 <div class="memitem">
@@ -514,7 +546,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d3d/namespaceflowpipe.xhtml">flowpipe</a></li><li class="navelem"><a class="el" href="../../d2/d08/namespaceflowpipe_1_1node.xhtml">node</a></li><li class="navelem"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml">INode</a></li>
-    <li class="footer">Generated on Sun Oct 1 2017 12:23:22 for FlowPipe by
+    <li class="footer">Generated on Sat Oct 21 2017 10:39:34 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

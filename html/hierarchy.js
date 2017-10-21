@@ -6,6 +6,7 @@ var hierarchy =
       ] ],
       [ "LogObserver", "d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml", null ],
       [ "INode", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml", [
+        [ "FunctionNode", "dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml", null ],
         [ "ValueNode", "d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode.xhtml", null ]
       ] ],
       [ "IPlug", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml", [
