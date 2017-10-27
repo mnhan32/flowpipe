@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node',['node',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a05060ba3a76d6bd92d8a225507f03cb9',1,'flowpipe::graph::Graph']]]
+  ['list_5frepr',['list_repr',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a0b8f98047b6d879a10bb2480c8d6a9cf',1,'flowpipe::node::INode']]]
 ];
