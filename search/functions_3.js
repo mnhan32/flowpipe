@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['deregister_5flistener',['deregister_listener',['../d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#a5e22df570f3e6b77b8d9bc8131b4ef3c',1,'flowpipe::log_observer::LogObserver']]],
-  ['deserialize',['deserialize',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a93e3d97c8d85c4195112b09c61729434',1,'flowpipe.graph.Graph.deserialize()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a93e3d97c8d85c4195112b09c61729434',1,'flowpipe.node.INode.deserialize()']]],
-  ['dirty_5fnodes',['dirty_nodes',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae5266bb70bbd21ba673614b5b2a5c420',1,'flowpipe::graph::Graph']]],
-  ['disconnect',['disconnect',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#afab97b4023d6e30d95344406b3655983',1,'flowpipe::plug::IPlug']]],
-  ['downstream_5fnodes',['downstream_nodes',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a846f352035c6d213232091026f2adcb4',1,'flowpipe::node::INode']]]
+  ['evaluate',['evaluate',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a500a2737f9f41878929da3a807e6e2c0',1,'flowpipe::node::INode']]],
+  ['evaluate_5fdirty_5fnodes',['evaluate_dirty_nodes',['../d7/d0d/classflowpipe_1_1engine_1_1IEngine.xhtml#a68606455c4ba15c73fdbde637225788e',1,'flowpipe.engine.IEngine.evaluate_dirty_nodes()'],['../d1/d66/classflowpipe_1_1engines_1_1python__engine_1_1PythonEngine.xhtml#a68606455c4ba15c73fdbde637225788e',1,'flowpipe.engines.python_engine.PythonEngine.evaluate_dirty_nodes()']]],
+  ['evaluate_5fentire_5fgraph',['evaluate_entire_graph',['../d7/d0d/classflowpipe_1_1engine_1_1IEngine.xhtml#abe01ea1b62a28411e1cfd80ffb861946',1,'flowpipe.engine.IEngine.evaluate_entire_graph()'],['../d1/d66/classflowpipe_1_1engines_1_1python__engine_1_1PythonEngine.xhtml#abe01ea1b62a28411e1cfd80ffb861946',1,'flowpipe.engines.python_engine.PythonEngine.evaluate_entire_graph()']]],
+  ['evaluation_5fmatrix',['evaluation_matrix',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a5f86c24545590a6e223654e80bf926ad',1,'flowpipe::graph::Graph']]],
+  ['evaluation_5fsequence',['evaluation_sequence',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae21d805e8d05aa454e39967ed3a80304',1,'flowpipe::graph::Graph']]]
 ];
