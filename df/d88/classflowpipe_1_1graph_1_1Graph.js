@@ -11,5 +11,7 @@ var classflowpipe_1_1graph_1_1Graph =
     [ "deserialize", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a93e3d97c8d85c4195112b09c61729434", null ],
     [ "_sort_node", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6f93c3205dae603017fdb3e29b8f416b", null ],
     [ "node", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a05060ba3a76d6bd92d8a225507f03cb9", null ],
+    [ "node_repr", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a2819ebbbe46f80e72aa7e508516435f9", null ],
+    [ "list_repr", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a0b8f98047b6d879a10bb2480c8d6a9cf", null ],
     [ "nodes", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76", null ]
 ];
