@@ -2,14 +2,29 @@ var NAVTREE =
 [
   [ "FlowPipe", "index.xhtml", [
     [ "Namespaces", null, [
-      [ "Namespace List", "namespaces.xhtml", "namespaces" ]
+      [ "Namespace List", "namespaces.xhtml", "namespaces" ],
+      [ "Namespace Members", "namespacemembers.xhtml", [
+        [ "All", "namespacemembers.xhtml", null ],
+        [ "Functions", "namespacemembers_func.xhtml", null ],
+        [ "Variables", "namespacemembers_vars.xhtml", null ]
+      ] ]
+    ] ],
+    [ "Classes", null, [
+      [ "Class List", "annotated.xhtml", "annotated" ],
+      [ "Class Index", "classes.xhtml", null ],
+      [ "Class Hierarchy", "hierarchy.xhtml", "hierarchy" ],
+      [ "Class Members", "functions.xhtml", [
+        [ "All", "functions.xhtml", null ],
+        [ "Functions", "functions_func.xhtml", null ],
+        [ "Variables", "functions_vars.xhtml", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"d0/d6b/namespaceflowpipe_1_1graph.xhtml"
+"annotated.xhtml"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

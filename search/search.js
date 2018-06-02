@@ -7,14 +7,20 @@
 
 var indexSectionsWithContent =
 {
-  0: "f",
-  1: "f"
+  0: "_acdefghilnoprsuv",
+  1: "fgilov",
+  2: "f",
+  3: "_acdefilnoprsuv",
+  4: "_acefhilnopv"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "namespaces"
+  1: "classes",
+  2: "namespaces",
+  3: "functions",
+  4: "variables"
 };
 
 function convertToId(search)
