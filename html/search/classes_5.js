@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['valuenode',['ValueNode',['../d8/dce/classflowpipe_1_1nodes_1_1value__node_1_1ValueNode.xhtml',1,'flowpipe::nodes::value_node']]]
+  ['statsreporter',['StatsReporter',['../d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml',1,'flowpipe::stats_reporter']]]
 ];

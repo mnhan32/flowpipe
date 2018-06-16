@@ -9,7 +9,8 @@ var hierarchy =
       [ "IPlug", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml", [
         [ "InputPlug", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml", null ],
         [ "OutputPlug", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml", null ]
-      ] ]
+      ] ],
+      [ "StatsReporter", "d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml", null ]
     ] ],
     [ "INode", null, [
       [ "Graph", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml", null ]

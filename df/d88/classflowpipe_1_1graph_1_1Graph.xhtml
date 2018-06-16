@@ -106,8 +106,8 @@ $(document).ready(function(){initNavTree('df/d88/classflowpipe_1_1graph_1_1Graph
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d1/d5a/classflowpipe_1_1graph_1_1Graph-members.xhtml">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Graph Class Reference</div>  </div>
@@ -136,6 +136,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a01ddb705f8bf4a7f65e048dd41e53d87"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a01ddb705f8bf4a7f65e048dd41e53d87">is_dirty</a></td></tr>
 <tr class="memdesc:a01ddb705f8bf4a7f65e048dd41e53d87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether any of the given nodes needs evaluation.  <a href="#a01ddb705f8bf4a7f65e048dd41e53d87">More...</a><br/></td></tr>
 <tr class="separator:a01ddb705f8bf4a7f65e048dd41e53d87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa204f4e04d3f989912ff80e02cdb5f37"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aa204f4e04d3f989912ff80e02cdb5f37">nodes</a></td></tr>
+<tr class="memdesc:aa204f4e04d3f989912ff80e02cdb5f37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregate the Nodes of this <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a> and all it's sub graphs.  <a href="#aa204f4e04d3f989912ff80e02cdb5f37">More...</a><br/></td></tr>
+<tr class="separator:aa204f4e04d3f989912ff80e02cdb5f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f86c24545590a6e223654e80bf926ad"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a5f86c24545590a6e223654e80bf926ad">evaluation_matrix</a></td></tr>
 <tr class="memdesc:a5f86c24545590a6e223654e80bf926ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort nodes into a 2D grid based on their dependency.  <a href="#a5f86c24545590a6e223654e80bf926ad">More...</a><br/></td></tr>
 <tr class="separator:a5f86c24545590a6e223654e80bf926ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,16 +173,16 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a93e3d97c8d85c4195112b09c61729434"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-serialize from the given json data.  <a href="#a93e3d97c8d85c4195112b09c61729434">More...</a><br/></td></tr>
 <tr class="separator:a93e3d97c8d85c4195112b09c61729434"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a6da5270e48c8b5c2f0dbaa008af4df76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76">nodes</a></td></tr>
-<tr class="separator:a6da5270e48c8b5c2f0dbaa008af4df76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a6f93c3205dae603017fdb3e29b8f416b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6f93c3205dae603017fdb3e29b8f416b">_sort_node</a></td></tr>
 <tr class="memdesc:a6f93c3205dae603017fdb3e29b8f416b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the node into the correct level.  <a href="#a6f93c3205dae603017fdb3e29b8f416b">More...</a><br/></td></tr>
 <tr class="separator:a6f93c3205dae603017fdb3e29b8f416b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a0d071689f4a7251decb11b46025e6d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a0d071689f4a7251decb11b46025e6d97">_nodes</a></td></tr>
+<tr class="separator:a0d071689f4a7251decb11b46025e6d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A graph of Nodes. </p>
@@ -252,6 +255,24 @@ Private Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Test whether any of the given nodes needs evaluation. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa204f4e04d3f989912ff80e02cdb5f37"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def nodes </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Aggregate the Nodes of this <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a> and all it's sub graphs. </p>
 
 </div>
 </div>
@@ -541,14 +562,22 @@ Private Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a6da5270e48c8b5c2f0dbaa008af4df76"></a>
+<a class="anchor" id="a0d071689f4a7251decb11b46025e6d97"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">nodes</td>
+          <td class="memname">_nodes</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -562,7 +591,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d3d/namespaceflowpipe.xhtml">flowpipe</a></li><li class="navelem"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml">graph</a></li><li class="navelem"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a></li>
-    <li class="footer">Generated on Sun Jun 3 2018 16:18:42 for FlowPipe by
+    <li class="footer">Generated on Sat Jun 16 2018 15:22:19 for FlowPipe by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
