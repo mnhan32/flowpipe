@@ -10,7 +10,7 @@ var indexSectionsWithContent =
   0: "_acdefghilmnoprsuv",
   1: "fgilosv",
   2: "f",
-  3: "_acdefilnoprsuv",
+  3: "_acdeilnoprsuv",
   4: "_acfhilmnopv"
 };
 
