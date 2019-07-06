@@ -15,7 +15,6 @@ var classflowpipe_1_1plug_1_1IPlug =
     [ "node", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0", null ],
     [ "connections", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3", null ],
     [ "accepted_plugs", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a87eb91d3d67fbb12478147e1e1a5970b", null ],
-    [ "_sub_plugs", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5d9914fde199cf2e92c07f1f7923ad33", null ],
     [ "_value", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934", null ],
     [ "_is_dirty", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f", null ],
     [ "is_dirty", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f", null ]

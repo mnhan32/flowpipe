@@ -8,8 +8,7 @@ var hierarchy =
       ] ],
       [ "IPlug", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml", [
         [ "InputPlug", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml", null ],
-        [ "OutputPlug", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml", null ],
-        [ "SubInputPlug", "de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml", null ]
+        [ "OutputPlug", "d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml", null ]
       ] ],
       [ "StatsReporter", "d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml", null ]
     ] ]
