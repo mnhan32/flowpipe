@@ -14,8 +14,6 @@ var classflowpipe_1_1node_1_1INode =
     [ "post_deserialize", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a4a5f57cbc87525f74b906b8b2b78b2b4", null ],
     [ "node_repr", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a2819ebbbe46f80e72aa7e508516435f9", null ],
     [ "list_repr", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a0b8f98047b6d879a10bb2480c8d6a9cf", null ],
-    [ "all_inputs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a7a3c370940a3ea4ddcc8dfa4fc595dca", null ],
-    [ "all_outputs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a7d034849ceba97065d61b062b875caa0", null ],
     [ "_sort_plugs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aed7871018ce1f60f1483b058b067050f", null ],
     [ "__metaclass__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#adfc4d1824f4ecdcbb04ceafc5bbc933e", null ],
     [ "name", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151", null ],
