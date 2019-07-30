@@ -3,10 +3,8 @@
 <area shape="rect" id="node3" href="$d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml" title="Redistributes messages to observing listener functions. " alt="" coords="114,56,210,83"/>
 <area shape="rect" id="node4" href="$d9/d44/classflowpipe_1_1node_1_1INode.xhtml" title="Holds input and output Plugs and a method for computing. " alt="" coords="133,107,191,133"/>
 <area shape="rect" id="node6" href="$d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs. " alt="" coords="136,157,188,184"/>
-<area shape="rect" id="node11" href="$d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml" title="Receive reports during node graph evaluation. " alt="" coords="111,208,213,235"/>
-<area shape="rect" id="node5" href="$dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml" title="Wrap a function into a Node. " alt="" coords="265,56,368,83"/>
-<area shape="rect" id="node7" href="$de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. " alt="" coords="278,107,355,133"/>
-<area shape="rect" id="node8" href="$d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. " alt="" coords="273,157,360,184"/>
-<area shape="rect" id="node9" href="$de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml" title="Held by a parent input plug to form a compound plug. " alt="" coords="267,208,367,235"/>
-<area shape="rect" id="node10" href="$d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml" title="Held by a parent output plug to form a compound plug. " alt="" coords="261,259,372,285"/>
+<area shape="rect" id="node9" href="$d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml" title="Receive reports during node graph evaluation. " alt="" coords="111,208,213,235"/>
+<area shape="rect" id="node5" href="$dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml" title="Wrap a function into a Node. " alt="" coords="261,107,364,133"/>
+<area shape="rect" id="node7" href="$de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. " alt="" coords="274,157,351,184"/>
+<area shape="rect" id="node8" href="$d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. " alt="" coords="269,208,356,235"/>
 </map>

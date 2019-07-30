@@ -1,6 +1,4 @@
 <map id="IPlug" name="IPlug">
 <area shape="rect" id="node3" href="$de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. " alt="" coords="5,155,83,181"/>
 <area shape="rect" id="node4" href="$d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. " alt="" coords="107,155,194,181"/>
-<area shape="rect" id="node5" href="$de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml" title="Held by a parent input plug to form a compound plug. " alt="" coords="218,155,318,181"/>
-<area shape="rect" id="node6" href="$d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml" title="Held by a parent output plug to form a compound plug. " alt="" coords="342,155,453,181"/>
 </map>
