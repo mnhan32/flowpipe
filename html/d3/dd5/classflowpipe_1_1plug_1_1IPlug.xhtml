@@ -124,6 +124,8 @@ Inheritance diagram for IPlug:</div>
 <map name="IPlug_inherit__map" id="IPlug_inherit__map">
 <area shape="rect" id="node3" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. " alt="" coords="5,155,83,181"/>
 <area shape="rect" id="node4" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. " alt="" coords="107,155,194,181"/>
+<area shape="rect" id="node5" href="../../de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml" title="Held by a parent input plug to form a compound plug. " alt="" coords="218,155,318,181"/>
+<area shape="rect" id="node6" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml" title="Held by a parent output plug to form a compound plug. " alt="" coords="342,155,453,181"/>
 </map>
 <center><span class="legend">[<a target="top" href="../../graph_legend.xhtml">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -139,9 +141,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae186fc413bd608035adcf86d7e92e022"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae186fc413bd608035adcf86d7e92e022">__init__</a> (self, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0">node</a>, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a87eb91d3d67fbb12478147e1e1a5970b">accepted_plugs</a>)</td></tr>
 <tr class="memdesc:ae186fc413bd608035adcf86d7e92e022"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Interface.  <a href="#ae186fc413bd608035adcf86d7e92e022">More...</a><br /></td></tr>
 <tr class="separator:ae186fc413bd608035adcf86d7e92e022"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23e8041ce1015febe4fdace3225714f9"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a23e8041ce1015febe4fdace3225714f9">__str__</a> (self)</td></tr>
-<tr class="memdesc:a23e8041ce1015febe4fdace3225714f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a pretty string.  <a href="#a23e8041ce1015febe4fdace3225714f9">More...</a><br /></td></tr>
-<tr class="separator:a23e8041ce1015febe4fdace3225714f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5977ca600992dbeda4a98b38c372133a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5977ca600992dbeda4a98b38c372133a">__rshift__</a> (self, other)</td></tr>
 <tr class="memdesc:a5977ca600992dbeda4a98b38c372133a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs. ">IPlug</a>.  <a href="#a5977ca600992dbeda4a98b38c372133a">More...</a><br /></td></tr>
 <tr class="separator:a5977ca600992dbeda4a98b38c372133a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,9 +165,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9e2ddd2adb20c9fbcc733cec6e4bab3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#af9e2ddd2adb20c9fbcc733cec6e4bab3">disconnect</a> (self, plug)</td></tr>
 <tr class="memdesc:af9e2ddd2adb20c9fbcc733cec6e4bab3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Break the connection to the given Plug.  <a href="#af9e2ddd2adb20c9fbcc733cec6e4bab3">More...</a><br /></td></tr>
 <tr class="separator:af9e2ddd2adb20c9fbcc733cec6e4bab3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#aad2fd8b7bbd35cf90e442b27a20e78a2">serialize</a> (self)</td></tr>
-<tr class="memdesc:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the Plug containing all it's connections.  <a href="#aad2fd8b7bbd35cf90e442b27a20e78a2">More...</a><br /></td></tr>
-<tr class="separator:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -185,6 +181,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a5d9914fde199cf2e92c07f1f7923ad33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5d9914fde199cf2e92c07f1f7923ad33">_sub_plugs</a></td></tr>
+<tr class="separator:a5d9914fde199cf2e92c07f1f7923ad33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f1f97bce4940e05fc20e6f5fbc35934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934">_value</a></td></tr>
 <tr class="separator:a5f1f97bce4940e05fc20e6f5fbc35934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a7f2cc6d7ccaad3ed4f0f5ed0c447ee5f">_is_dirty</a></td></tr>
@@ -236,24 +234,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a23e8041ce1015febe4fdace3225714f9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def __str__ </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Generate a pretty string. </p>
-
-</div>
-</div>
 <a class="anchor" id="a5977ca600992dbeda4a98b38c372133a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -460,24 +440,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aad2fd8b7bbd35cf90e442b27a20e78a2"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def serialize </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Serialize the Plug containing all it's connections. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="ab74e6bf80237ddc4109968cedc58c151"></a>
 <div class="memitem">
@@ -523,6 +485,26 @@ Private Attributes</h2></td></tr>
           <td class="memname">accepted_plugs</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5d9914fde199cf2e92c07f1f7923ad33"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">_sub_plugs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

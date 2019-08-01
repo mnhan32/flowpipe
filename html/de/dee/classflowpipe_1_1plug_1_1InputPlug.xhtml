@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('de/dee/classflowpipe_1_1plug_1_1InputP
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d9/d9e/classflowpipe_1_1plug_1_1InputPlug-members.xhtml">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">InputPlug Class Reference</div>  </div>
@@ -138,19 +139,25 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afbaa459de34786aaf4039764c42c40e3"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#afbaa459de34786aaf4039764c42c40e3">__init__</a> (self, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0">node</a>, <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#afcc7a4b78ecd8fa7e713f8cfa0f51017">value</a>=None)</td></tr>
 <tr class="memdesc:afbaa459de34786aaf4039764c42c40e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. ">InputPlug</a>.  <a href="#afbaa459de34786aaf4039764c42c40e3">More...</a><br /></td></tr>
 <tr class="separator:afbaa459de34786aaf4039764c42c40e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04fb49fe8164306b5222027c7dda3f22"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a04fb49fe8164306b5222027c7dda3f22">__unicode__</a> (self)</td></tr>
-<tr class="memdesc:a04fb49fe8164306b5222027c7dda3f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show this Plug's type and it's connections.  <a href="#a04fb49fe8164306b5222027c7dda3f22">More...</a><br /></td></tr>
-<tr class="separator:a04fb49fe8164306b5222027c7dda3f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c010f80f5ebc27fd01780e480682686"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a9c010f80f5ebc27fd01780e480682686">__getitem__</a> (self, key)</td></tr>
+<tr class="memdesc:a9c010f80f5ebc27fd01780e480682686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieve a sub plug by key.  <a href="#a9c010f80f5ebc27fd01780e480682686">More...</a><br /></td></tr>
+<tr class="separator:a9c010f80f5ebc27fd01780e480682686"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50195cb9bdd51876945eb2dd6fac4cac"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a50195cb9bdd51876945eb2dd6fac4cac">value</a> (self)</td></tr>
+<tr class="memdesc:a50195cb9bdd51876945eb2dd6fac4cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the value on this Plug.  <a href="#a50195cb9bdd51876945eb2dd6fac4cac">More...</a><br /></td></tr>
+<tr class="separator:a50195cb9bdd51876945eb2dd6fac4cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a711aec1a22d630139cdb9df9948cedfa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a711aec1a22d630139cdb9df9948cedfa">value</a> (self, value)</td></tr>
+<tr class="memdesc:a711aec1a22d630139cdb9df9948cedfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the Plug dirty when the value is being changed.  <a href="#a711aec1a22d630139cdb9df9948cedfa">More...</a><br /></td></tr>
+<tr class="separator:a711aec1a22d630139cdb9df9948cedfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bb07b77d3883879fa62f11b0e28e52b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a6bb07b77d3883879fa62f11b0e28e52b">connect</a> (self, plug)</td></tr>
 <tr class="memdesc:a6bb07b77d3883879fa62f11b0e28e52b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connect this Plug to the given <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. ">OutputPlug</a>.  <a href="#a6bb07b77d3883879fa62f11b0e28e52b">More...</a><br /></td></tr>
 <tr class="separator:a6bb07b77d3883879fa62f11b0e28e52b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#aad2fd8b7bbd35cf90e442b27a20e78a2">serialize</a> (self)</td></tr>
+<tr class="memdesc:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the Plug containing all it's connections.  <a href="#aad2fd8b7bbd35cf90e442b27a20e78a2">More...</a><br /></td></tr>
+<tr class="separator:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classflowpipe_1_1plug_1_1IPlug"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classflowpipe_1_1plug_1_1IPlug')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml">IPlug</a></td></tr>
 <tr class="memitem:ae186fc413bd608035adcf86d7e92e022 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae186fc413bd608035adcf86d7e92e022">__init__</a> (self, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0">node</a>, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a87eb91d3d67fbb12478147e1e1a5970b">accepted_plugs</a>)</td></tr>
 <tr class="memdesc:ae186fc413bd608035adcf86d7e92e022 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the Interface.  <a href="#ae186fc413bd608035adcf86d7e92e022">More...</a><br /></td></tr>
 <tr class="separator:ae186fc413bd608035adcf86d7e92e022 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23e8041ce1015febe4fdace3225714f9 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a23e8041ce1015febe4fdace3225714f9">__str__</a> (self)</td></tr>
-<tr class="memdesc:a23e8041ce1015febe4fdace3225714f9 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generate a pretty string.  <a href="#a23e8041ce1015febe4fdace3225714f9">More...</a><br /></td></tr>
-<tr class="separator:a23e8041ce1015febe4fdace3225714f9 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5977ca600992dbeda4a98b38c372133a inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5977ca600992dbeda4a98b38c372133a">__rshift__</a> (self, other)</td></tr>
 <tr class="memdesc:a5977ca600992dbeda4a98b38c372133a inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a connection to the given <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs. ">IPlug</a>.  <a href="#a5977ca600992dbeda4a98b38c372133a">More...</a><br /></td></tr>
 <tr class="separator:a5977ca600992dbeda4a98b38c372133a inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,9 +182,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9e2ddd2adb20c9fbcc733cec6e4bab3 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#af9e2ddd2adb20c9fbcc733cec6e4bab3">disconnect</a> (self, plug)</td></tr>
 <tr class="memdesc:af9e2ddd2adb20c9fbcc733cec6e4bab3 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="mdescLeft">&#160;</td><td class="mdescRight">Break the connection to the given Plug.  <a href="#af9e2ddd2adb20c9fbcc733cec6e4bab3">More...</a><br /></td></tr>
 <tr class="separator:af9e2ddd2adb20c9fbcc733cec6e4bab3 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad2fd8b7bbd35cf90e442b27a20e78a2 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#aad2fd8b7bbd35cf90e442b27a20e78a2">serialize</a> (self)</td></tr>
-<tr class="memdesc:aad2fd8b7bbd35cf90e442b27a20e78a2 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the Plug containing all it's connections.  <a href="#aad2fd8b7bbd35cf90e442b27a20e78a2">More...</a><br /></td></tr>
-<tr class="separator:aad2fd8b7bbd35cf90e442b27a20e78a2 inherit pub_methods_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -198,6 +202,11 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a87eb91d3d67fbb12478147e1e1a5970b inherit pub_attribs_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11a064c92f179b2a2fb7751f8c86236f inherit pub_attribs_classflowpipe_1_1plug_1_1IPlug"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f">is_dirty</a></td></tr>
 <tr class="separator:a11a064c92f179b2a2fb7751f8c86236f inherit pub_attribs_classflowpipe_1_1plug_1_1IPlug"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5f1f97bce4940e05fc20e6f5fbc35934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934">_value</a></td></tr>
+<tr class="separator:a5f1f97bce4940e05fc20e6f5fbc35934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Receives data from an <a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. ">OutputPlug</a>. </p>
@@ -244,12 +253,41 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a04fb49fe8164306b5222027c7dda3f22"></a>
+<a class="anchor" id="a9c010f80f5ebc27fd01780e480682686"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def __unicode__ </td>
+          <td class="memname">def __getitem__ </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieve a sub plug by key. </p>
+<p>If it does not exist yet, it is created automatically! Args: key (str): The name of the sub plug </p>
+
+</div>
+</div>
+<a class="anchor" id="a50195cb9bdd51876945eb2dd6fac4cac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def value </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -258,7 +296,35 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Show this Plug's type and it's connections. </p>
+<p>Access to the value on this Plug. </p>
+
+</div>
+</div>
+<a class="anchor" id="a711aec1a22d630139cdb9df9948cedfa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def value </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set the Plug dirty when the value is being changed. </p>
 
 </div>
 </div>
@@ -291,6 +357,24 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aad2fd8b7bbd35cf90e442b27a20e78a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def serialize </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Serialize the Plug containing all it's connections. </p>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="afcc7a4b78ecd8fa7e713f8cfa0f51017"></a>
 <div class="memitem">
@@ -312,6 +396,26 @@ Public Attributes</h2></td></tr>
           <td class="memname">is_dirty</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a5f1f97bce4940e05fc20e6f5fbc35934"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">_value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
