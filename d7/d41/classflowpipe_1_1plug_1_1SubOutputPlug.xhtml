@@ -136,9 +136,9 @@ Collaboration diagram for SubOutputPlug:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa04a89a50cc5aab800c311ac9136792"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#aaa04a89a50cc5aab800c311ac9136792">__init__</a> (self, key, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0">node</a>, <a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a626c3691a62b3ef792896e10132ef25e">parent_plug</a>, <a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#afcc7a4b78ecd8fa7e713f8cfa0f51017">value</a>=None)</td></tr>
-<tr class="memdesc:aaa04a89a50cc5aab800c311ac9136792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the plug.  <a href="#aaa04a89a50cc5aab800c311ac9136792">More...</a><br /></td></tr>
-<tr class="separator:aaa04a89a50cc5aab800c311ac9136792"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ad4993068236f1cae5bf7cc22e284c2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a6ad4993068236f1cae5bf7cc22e284c2">__init__</a> (self, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>, <a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0">node</a>, <a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a626c3691a62b3ef792896e10132ef25e">parent_plug</a>, <a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#afcc7a4b78ecd8fa7e713f8cfa0f51017">value</a>=None)</td></tr>
+<tr class="memdesc:a6ad4993068236f1cae5bf7cc22e284c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the plug.  <a href="#a6ad4993068236f1cae5bf7cc22e284c2">More...</a><br /></td></tr>
+<tr class="separator:a6ad4993068236f1cae5bf7cc22e284c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50195cb9bdd51876945eb2dd6fac4cac"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a50195cb9bdd51876945eb2dd6fac4cac">value</a> (self)</td></tr>
 <tr class="memdesc:a50195cb9bdd51876945eb2dd6fac4cac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Access to the value on this Plug.  <a href="#a50195cb9bdd51876945eb2dd6fac4cac">More...</a><br /></td></tr>
 <tr class="separator:a50195cb9bdd51876945eb2dd6fac4cac"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -216,7 +216,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Held by a parent output plug to form a compound plug. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="aaa04a89a50cc5aab800c311ac9136792"></a>
+<a class="anchor" id="a6ad4993068236f1cae5bf7cc22e284c2"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -230,7 +230,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
+          <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -259,7 +259,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialize the plug. </p>
-<p>Can be connected to an <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. ">InputPlug</a>. Args: key (str): The key will be used to form the name of the Plug: {parent_plug.name}.{key}. node (INode): The Node holding the Plug. parent_plug (<a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. ">InputPlug</a>): The parent plug holding this Plug. </p>
+<p>Can be connected to an <a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. ">InputPlug</a>. Args: name (str): The name of the Plug has to be in the form: {parent_plug.name}.{name}. node (INode): The Node holding the Plug. parent_plug (<a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. ">InputPlug</a>): The parent plug holding this Plug. </p>
 
 </div>
 </div>
