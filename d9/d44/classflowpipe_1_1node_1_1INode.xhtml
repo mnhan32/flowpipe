@@ -137,9 +137,9 @@ Collaboration diagram for INode:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a89721d352ca1bd2fd74466ab6acfb28d"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a89721d352ca1bd2fd74466ab6acfb28d">__init__</a> (self, <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>=None, <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902">identifier</a>=None, <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a9cfcb724bbf4bae5f97bc17cf58cf522">metadata</a>=None, graph=None)</td></tr>
-<tr class="memdesc:a89721d352ca1bd2fd74466ab6acfb28d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the input and output dictionaries and the name.  <a href="#a89721d352ca1bd2fd74466ab6acfb28d">More...</a><br /></td></tr>
-<tr class="separator:a89721d352ca1bd2fd74466ab6acfb28d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18477ebecc1b01f4434e23f80c776027"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a18477ebecc1b01f4434e23f80c776027">__init__</a> (self, <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>=None, <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902">identifier</a>=None, <a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a9cfcb724bbf4bae5f97bc17cf58cf522">metadata</a>=None, graph='default')</td></tr>
+<tr class="memdesc:a18477ebecc1b01f4434e23f80c776027"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the input and output dictionaries and the name.  <a href="#a18477ebecc1b01f4434e23f80c776027">More...</a><br /></td></tr>
+<tr class="separator:a18477ebecc1b01f4434e23f80c776027"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04fb49fe8164306b5222027c7dda3f22"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a04fb49fe8164306b5222027c7dda3f22">__unicode__</a> (self)</td></tr>
 <tr class="memdesc:a04fb49fe8164306b5222027c7dda3f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show all input and output Plugs.  <a href="#a04fb49fe8164306b5222027c7dda3f22">More...</a><br /></td></tr>
 <tr class="separator:a04fb49fe8164306b5222027c7dda3f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -222,7 +222,7 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Holds input and output Plugs and a method for computing. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a class="anchor" id="a89721d352ca1bd2fd74466ab6acfb28d"></a>
+<a class="anchor" id="a18477ebecc1b01f4434e23f80c776027"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -254,7 +254,7 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>graph</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>graph</em> = <code>'default'</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -265,7 +265,7 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Initialize the input and output dictionaries and the name. </p>
-<p>Args: name (str): If not provided, the class name is used. </p>
+<p>Args: name (str): If not provided, the class name is used. graph (Graph): The graph to add the node to. If set to 'default', the Node is added to the default graph. If set to None, the Node is not added to any grpah. </p>
 
 </div>
 </div>

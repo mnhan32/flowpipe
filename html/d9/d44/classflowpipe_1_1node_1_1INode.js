@@ -1,6 +1,6 @@
 var classflowpipe_1_1node_1_1INode =
 [
-    [ "__init__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a89721d352ca1bd2fd74466ab6acfb28d", null ],
+    [ "__init__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a18477ebecc1b01f4434e23f80c776027", null ],
     [ "__unicode__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a04fb49fe8164306b5222027c7dda3f22", null ],
     [ "__str__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a23e8041ce1015febe4fdace3225714f9", null ],
     [ "is_dirty", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a40739595e99c1a1286ab5ca2e549d458", null ],

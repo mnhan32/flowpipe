@@ -3,8 +3,8 @@ var indexSectionsWithContent =
   0: "_abcdefghilmnoprsuv",
   1: "fgilos",
   2: "f",
-  3: "_acdeilnoprsuv",
-  4: "_abcfhilmnopv"
+  3: "_acdegilnoprsuv",
+  4: "_abcdfhilmnopv"
 };
 
 var indexSectionNames =
