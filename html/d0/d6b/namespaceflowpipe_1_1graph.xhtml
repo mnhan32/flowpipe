@@ -129,9 +129,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a462b426c8ce358dbc2f0b62760f65593"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#a462b426c8ce358dbc2f0b62760f65593">reset_default_graph</a> ()</td></tr>
 <tr class="memdesc:a462b426c8ce358dbc2f0b62760f65593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the default graph to an empty graph.  <a href="#a462b426c8ce358dbc2f0b62760f65593">More...</a><br /></td></tr>
 <tr class="separator:a462b426c8ce358dbc2f0b62760f65593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a0fcad8e1501be89a66b64b50d0b2e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#a18a0fcad8e1501be89a66b64b50d0b2e">evaluate_node_in_process</a> (identifier, nodes_data)</td></tr>
-<tr class="memdesc:a18a0fcad8e1501be89a66b64b50d0b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate a node when multiprocessing.  <a href="#a18a0fcad8e1501be89a66b64b50d0b2e">More...</a><br /></td></tr>
-<tr class="separator:a18a0fcad8e1501be89a66b64b50d0b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -190,41 +187,6 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reset the default graph to an empty graph. </p>
-
-</div>
-</div>
-<a class="anchor" id="a18a0fcad8e1501be89a66b64b50d0b2e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def flowpipe.graph.evaluate_node_in_process </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>identifier</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes_data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Evaluate a node when multiprocessing. </p>
-<ol type="1">
-<li>Deserializing the node from the given nodes_data dict</li>
-<li>Retrieving upstream data from the nodes_data dict</li>
-<li>Evaluating the node</li>
-<li>Serializing the results back into the nodes_data</li>
-</ol>
-<p>Args: identifier (str): The identifier of the node to evaluate nodes_data (dict): Used like a "database" to store the nodes </p>
 
 </div>
 </div>
