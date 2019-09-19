@@ -160,12 +160,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd311558aae8bf4d61a05f8074692bf2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#afd311558aae8bf4d61a05f8074692bf2">add_node</a> (self, node)</td></tr>
 <tr class="memdesc:afd311558aae8bf4d61a05f8074692bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add given Node to the <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a>.  <a href="#afd311558aae8bf4d61a05f8074692bf2">More...</a><br /></td></tr>
 <tr class="separator:afd311558aae8bf4d61a05f8074692bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad27531dbf21623679e2e2faa3b1f87b6"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ad27531dbf21623679e2e2faa3b1f87b6">evaluate</a> (self, threaded=False, submission_delay=0.1)</td></tr>
-<tr class="memdesc:ad27531dbf21623679e2e2faa3b1f87b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes.  <a href="#ad27531dbf21623679e2e2faa3b1f87b6">More...</a><br /></td></tr>
-<tr class="separator:ad27531dbf21623679e2e2faa3b1f87b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f60ac070b48f779aa474917fedee8e1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a0f60ac070b48f779aa474917fedee8e1">evaluate_multiprocessed</a> (self, submission_delay=0.1)</td></tr>
-<tr class="memdesc:a0f60ac070b48f779aa474917fedee8e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to the threaded evaluation but with multiprocessing.  <a href="#a0f60ac070b48f779aa474917fedee8e1">More...</a><br /></td></tr>
-<tr class="separator:a0f60ac070b48f779aa474917fedee8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06751e743be071396c5b7aba3d0cef3a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a06751e743be071396c5b7aba3d0cef3a">evaluate</a> (self, threaded=False, submission_delay=0.1, raise_after=3)</td></tr>
+<tr class="memdesc:a06751e743be071396c5b7aba3d0cef3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes.  <a href="#a06751e743be071396c5b7aba3d0cef3a">More...</a><br /></td></tr>
+<tr class="separator:a06751e743be071396c5b7aba3d0cef3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aad2fd8b7bbd35cf90e442b27a20e78a2">serialize</a> (self)</td></tr>
 <tr class="memdesc:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the graph in it's grid form.  <a href="#aad2fd8b7bbd35cf90e442b27a20e78a2">More...</a><br /></td></tr>
 <tr class="separator:aad2fd8b7bbd35cf90e442b27a20e78a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -189,8 +186,8 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ac4315b257ae855b040c92178a8f92b0b"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ac4315b257ae855b040c92178a8f92b0b">_evaluate_threaded</a> (self, submission_delay)</td></tr>
-<tr class="separator:ac4315b257ae855b040c92178a8f92b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee87d9b5d6e6478b1373f8f742664101"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aee87d9b5d6e6478b1373f8f742664101">_evaluate_threaded</a> (self, submission_delay, raise_after_loops=3)</td></tr>
+<tr class="separator:aee87d9b5d6e6478b1373f8f742664101"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be30cce23167cece44175c826c70832"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6be30cce23167cece44175c826c70832">_sort_node</a> (self, node, parent, level)</td></tr>
 <tr class="memdesc:a6be30cce23167cece44175c826c70832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the node into the correct level.  <a href="#a6be30cce23167cece44175c826c70832">More...</a><br /></td></tr>
 <tr class="separator:a6be30cce23167cece44175c826c70832"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -388,7 +385,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad27531dbf21623679e2e2faa3b1f87b6"></a>
+<a class="anchor" id="a06751e743be071396c5b7aba3d0cef3a"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -408,7 +405,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>submission_delay</em> = <code>0.1</code>&#160;</td>
+          <td class="paramname"><em>submission_delay</em> = <code>0.1</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>raise_after</em> = <code>3</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -419,11 +422,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Evaluate all Nodes. </p>
-<p>Args: threaded (bool): Whether to execute each node in a separate thread. submission_delay (float): The delay in seconds between loops issuing new threads if nodes are ready to process. </p>
+<p>Args: threaded (bool): Whether to execute each node in a separate thread. submission_delay (float): The delay in seconds between loops issuing new threads if nodes are ready to process. raise_after (int): The number of loops without currently running threads after which to raise a RuntimeError. </p>
 
 </div>
 </div>
-<a class="anchor" id="ac4315b257ae855b040c92178a8f92b0b"></a>
+<a class="anchor" id="aee87d9b5d6e6478b1373f8f742664101"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -440,7 +443,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>submission_delay</em>&#160;</td>
+          <td class="paramname"><em>submission_delay</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>raise_after_loops</em> = <code>3</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -454,35 +463,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0f60ac070b48f779aa474917fedee8e1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def evaluate_multiprocessed </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>submission_delay</em> = <code>0.1</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Similar to the threaded evaluation but with multiprocessing. </p>
-<p>Nodes communicate via a manager and are evaluated in a dedicated function. The original node objects are updated with the results from the corresponding processes to reflect the evaluation. </p>
 
 </div>
 </div>
