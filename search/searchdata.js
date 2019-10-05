@@ -4,7 +4,7 @@ var indexSectionsWithContent =
   1: "fgilnos",
   2: "f",
   3: "_acdegilnoprsuv",
-  4: "_abcdfghilmnoprv"
+  4: "_abcdfhilmnoprv"
 };
 
 var indexSectionNames =
