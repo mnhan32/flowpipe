@@ -433,12 +433,13 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Evaluate all Nodes in the graph. </p>
-<p>Sorts the nodes in the graph into a resolution order and evaluates the nodes. Nodes that do not depend on each other can be parallelized either by threading or multiprocessing, see the "mode" keyword.</p>
+<p>Sorts the nodes in the graph into a resolution order and evaluates the nodes. Evaluation can be parallelized by utilizing the dependencies between the nodes - see the "mode" keyword for the options.</p>
 <p>Note that no checks are in place whether the node execution is actually thread-safe or fit for multiprocessing. It is assumed to be given if the respective mode is selected.</p>
+<p>Some keyword arguments do not affect all evaluation modes.</p>
 <p>Args: mode (str): The evaluation mode. Possible modes are</p><ul>
 <li>linear : Iterates over all nodes in a single thread</li>
-<li>threading : Spawns independent nodes in new threads</li>
-<li>multiprocessing : Spawns independent nodes in new processes skip_clean (bool): Whether to skip nodes that are 'clean', i.e. whose inputs have not changed since their output was computed submission_delay (float): The delay in seconds between loops issuing new threads/processes if nodes are ready to process. raise_after (int): The number of loops without currently running threads/processes after which to raise a RuntimeError. </li>
+<li>threading : Evaluates each node in a new thread</li>
+<li>multiprocessing : Evaluates each node in a new process skip_clean (bool): Whether to skip nodes that are 'clean' (as tracked by the 'is_dirty' attribute on the node), i.e. whose inputs have not changed since their output was computed submission_delay (float): The delay in seconds between loops issuing new threads/processes if nodes are ready to process. raise_after (int): The number of loops without currently running threads/processes after which to raise a RuntimeError. </li>
 </ul>
 
 </div>
