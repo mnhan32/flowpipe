@@ -8,6 +8,5 @@ var classflowpipe_1_1plug_1_1InputPlug =
     [ "serialize", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#aad2fd8b7bbd35cf90e442b27a20e78a2", null ],
     [ "value", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#afcc7a4b78ecd8fa7e713f8cfa0f51017", null ],
     [ "is_dirty", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f", null ],
-    [ "_value", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934", null ],
     [ "connections", "de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3", null ]
 ];
