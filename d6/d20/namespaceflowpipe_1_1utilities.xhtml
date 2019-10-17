@@ -128,9 +128,6 @@ Functions</h2></td></tr>
 <tr class="memitem:aeb808b91c524c4c837aed4921f6e872a"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d20/namespaceflowpipe_1_1utilities.xhtml#aeb808b91c524c4c837aed4921f6e872a">deserialize_graph</a> (data)</td></tr>
 <tr class="memdesc:aeb808b91c524c4c837aed4921f6e872a"><td class="mdescLeft">&#160;</td><td class="mdescRight">De-serialize from the given json data.  <a href="#aeb808b91c524c4c837aed4921f6e872a">More...</a><br /></td></tr>
 <tr class="separator:aeb808b91c524c4c837aed4921f6e872a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a739bd907d688d2909af646ce0acf7ca7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d20/namespaceflowpipe_1_1utilities.xhtml#a739bd907d688d2909af646ce0acf7ca7">get_hash</a> (obj, hash_func=lambda x:sha256(x).hexdigest())</td></tr>
-<tr class="memdesc:a739bd907d688d2909af646ce0acf7ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Safely get the hash of an object.  <a href="#a739bd907d688d2909af646ce0acf7ca7">More...</a><br /></td></tr>
-<tr class="separator:a739bd907d688d2909af646ce0acf7ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="aee163051e4fec042f917cbbf430bc201"></a>
@@ -201,37 +198,6 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>De-serialize from the given json data. </p>
-
-</div>
-</div>
-<a class="anchor" id="a739bd907d688d2909af646ce0acf7ca7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def flowpipe.utilities.get_hash </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>hash_func</em> = <code>lambda&#160;x:&#160;sha256(x).hexdigest()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Safely get the hash of an object. </p>
-<p>This function tries to compute the hash as safely as possible, dealing with json data and strings in a well-defined manner.</p>
-<p>Args: obj: The object to hash hash_func (func(obj) -&gt; str): The hashing function to use</p>
-<p>Returns: (str): A hash of the obj </p>
 
 </div>
 </div>
