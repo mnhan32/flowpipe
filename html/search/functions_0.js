@@ -11,6 +11,7 @@ var searchData=
   ['_5fevaluate_5fmultiprocessed',['_evaluate_multiprocessed',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a8436596259bd96f9abd93c2c8c948b9c',1,'flowpipe::graph::Graph']]],
   ['_5fevaluate_5fthreaded',['_evaluate_threaded',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#add86c86f2d69425f8bac6ea33c8e7466',1,'flowpipe::graph::Graph']]],
   ['_5finitialize',['_initialize',['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a5d5267ed2571de3b9170997b8b0d57ac',1,'flowpipe::node::FunctionNode']]],
+  ['_5fserialize',['_serialize',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a7fccc4ebe99b20bc7586cf93ae10fbaa',1,'flowpipe.graph.Graph._serialize()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a7fccc4ebe99b20bc7586cf93ae10fbaa',1,'flowpipe.node.INode._serialize()'],['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a7fccc4ebe99b20bc7586cf93ae10fbaa',1,'flowpipe.node.FunctionNode._serialize()']]],
   ['_5fsort_5fnode',['_sort_node',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6be30cce23167cece44175c826c70832',1,'flowpipe::graph::Graph']]],
   ['_5fsort_5fplugs',['_sort_plugs',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ad76778f87f61ef593a45ebb4ea2d4c4c',1,'flowpipe::node::INode']]],
   ['_5fupdate_5fvalue',['_update_value',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a3ded0e64f579bc2b15db457bbcfefa12',1,'flowpipe::plug::IPlug']]]
