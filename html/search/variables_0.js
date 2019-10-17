@@ -8,5 +8,5 @@ var searchData=
   ['_5fnodes',['_nodes',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a0d071689f4a7251decb11b46025e6d97',1,'flowpipe::graph::Graph']]],
   ['_5fsub_5fplugs',['_sub_plugs',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5d9914fde199cf2e92c07f1f7923ad33',1,'flowpipe::plug::IPlug']]],
   ['_5fuse_5fself',['_use_self',['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a48b33f7c41dd4f5c064e0ba5d44fc390',1,'flowpipe::node::FunctionNode']]],
-  ['_5fvalue',['_value',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934',1,'flowpipe.plug.IPlug._value()'],['../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934',1,'flowpipe.plug.OutputPlug._value()'],['../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934',1,'flowpipe.plug.InputPlug._value()'],['../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934',1,'flowpipe.plug.SubOutputPlug._value()']]]
+  ['_5fvalue',['_value',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5f1f97bce4940e05fc20e6f5fbc35934',1,'flowpipe::plug::IPlug']]]
 ];

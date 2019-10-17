@@ -3,6 +3,7 @@ var classflowpipe_1_1plug_1_1IPlug =
     [ "__init__", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae186fc413bd608035adcf86d7e92e022", null ],
     [ "__rshift__", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a5977ca600992dbeda4a98b38c372133a", null ],
     [ "__lshift__", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab0910512c088733034b835eaedc8acb0", null ],
+    [ "_update_value", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a3ded0e64f579bc2b15db457bbcfefa12", null ],
     [ "value", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a50195cb9bdd51876945eb2dd6fac4cac", null ],
     [ "value", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a711aec1a22d630139cdb9df9948cedfa", null ],
     [ "is_dirty", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a40739595e99c1a1286ab5ca2e549d458", null ],
