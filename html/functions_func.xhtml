@@ -144,7 +144,8 @@ $(document).ready(function(){initNavTree('functions_func.xhtml','');});
 , <a class="el" href="d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a9c010f80f5ebc27fd01780e480682686">OutputPlug</a>
 </li>
 <li>__init__()
-: <a class="el" href="df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aeb308730343fd3443c1f0df64ffc61f1">Graph</a>
+: <a class="el" href="de/d37/classflowpipe_1_1event_1_1Event.xhtml#ac1f269f187d7993a4459415dfc3f8666">Event</a>
+, <a class="el" href="df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aeb308730343fd3443c1f0df64ffc61f1">Graph</a>
 , <a class="el" href="dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a60461b31e72b56e84abf5c1ba6c6f9c4">FunctionNode</a>
 , <a class="el" href="d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a18477ebecc1b01f4434e23f80c776027">INode</a>
 , <a class="el" href="de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#afbaa459de34786aaf4039764c42c40e3">InputPlug</a>
@@ -228,9 +229,8 @@ $(document).ready(function(){initNavTree('functions_func.xhtml','');});
 <li>default()
 : <a class="el" href="d1/dd2/classflowpipe_1_1utilities_1_1NodeEncoder.xhtml#a6d0e1177dbe6207931c08dc6def6cbe3">NodeEncoder</a>
 </li>
-<li>deregister_listener()
-: <a class="el" href="d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#a1dc2848da443761416eecf8a6e0ba085">LogObserver</a>
-, <a class="el" href="d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml#a1dc2848da443761416eecf8a6e0ba085">StatsReporter</a>
+<li>deregister()
+: <a class="el" href="de/d37/classflowpipe_1_1event_1_1Event.xhtml#a4d840fa14f938fbe56d0a177af95ab56">Event</a>
 </li>
 <li>deserialize()
 : <a class="el" href="df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#acc55513b8f622820fc330d57fdb67d57">Graph</a>
@@ -246,6 +246,9 @@ $(document).ready(function(){initNavTree('functions_func.xhtml','');});
 
 
 <h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>emit()
+: <a class="el" href="de/d37/classflowpipe_1_1event_1_1Event.xhtml#a83564b07eb06a6a8a26aef9c2606e8f2">Event</a>
+</li>
 <li>evaluate()
 : <a class="el" href="df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a28cb3924bf207d0f4d6d2a0849f7a5a2">Graph</a>
 , <a class="el" href="d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a5407a166f19c69fe8ebecf990621c3e8">INode</a>
@@ -277,6 +280,9 @@ $(document).ready(function(){initNavTree('functions_func.xhtml','');});
 , <a class="el" href="d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a40739595e99c1a1286ab5ca2e549d458">IPlug</a>
 , <a class="el" href="de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml#a40739595e99c1a1286ab5ca2e549d458">SubInputPlug</a>
 , <a class="el" href="d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a40739595e99c1a1286ab5ca2e549d458">SubOutputPlug</a>
+</li>
+<li>is_registered()
+: <a class="el" href="de/d37/classflowpipe_1_1event_1_1Event.xhtml#a516d623cdbff79f21a9903281de82afe">Event</a>
 </li>
 </ul>
 
@@ -312,19 +318,12 @@ $(document).ready(function(){initNavTree('functions_func.xhtml','');});
 : <a class="el" href="dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a5ee89c0220c1165c8eadfaf91540bca5">FunctionNode</a>
 , <a class="el" href="d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a5ee89c0220c1165c8eadfaf91540bca5">INode</a>
 </li>
-<li>push_message()
-: <a class="el" href="d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#a8e7da809113f412bc3a7efe7ebb2a9fa">LogObserver</a>
-</li>
-<li>push_stats()
-: <a class="el" href="d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml#aff56392a5c68b1be24796d7700d257d9">StatsReporter</a>
-</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
-<li>register_listener()
-: <a class="el" href="d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#ab6f7229546d5186b94cc153c859f6763">LogObserver</a>
-, <a class="el" href="d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml#ab6f7229546d5186b94cc153c859f6763">StatsReporter</a>
+<li>register()
+: <a class="el" href="de/d37/classflowpipe_1_1event_1_1Event.xhtml#ae915c0ec35542dd4bd3a788f573f3cee">Event</a>
 </li>
 </ul>
 

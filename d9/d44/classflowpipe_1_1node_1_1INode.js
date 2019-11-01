@@ -23,6 +23,7 @@ var classflowpipe_1_1node_1_1INode =
     [ "all_outputs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a52b6e07332091d6d06e7b970b9ebc9ab", null ],
     [ "_sort_plugs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ad76778f87f61ef593a45ebb4ea2d4c4c", null ],
     [ "__metaclass__", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#adfc4d1824f4ecdcbb04ceafc5bbc933e", null ],
+    [ "EVENTS", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a8b83f083b2bdfe6b3f0fba803f9cfc0e", null ],
     [ "name", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151", null ],
     [ "identifier", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902", null ],
     [ "inputs", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54", null ],
@@ -30,5 +31,6 @@ var classflowpipe_1_1node_1_1INode =
     [ "metadata", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a9cfcb724bbf4bae5f97bc17cf58cf522", null ],
     [ "omit", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a36c33cda455902e250ccc64842fb5ddc", null ],
     [ "file_location", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ae317848454d4a83291a27290cde639e3", null ],
-    [ "class_name", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a3378f35ca205fd422d7edb3190867861", null ]
+    [ "class_name", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a3378f35ca205fd422d7edb3190867861", null ],
+    [ "stats", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aa57ebe01934de43865125819a3c4af74", null ]
 ];
