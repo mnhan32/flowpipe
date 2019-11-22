@@ -110,7 +110,6 @@ $(document).ready(function(){initNavTree('df/d88/classflowpipe_1_1graph_1_1Graph
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d1/d5a/classflowpipe_1_1graph_1_1Graph-members.xhtml">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Graph Class Reference</div>  </div>
@@ -136,8 +135,8 @@ Collaboration diagram for Graph:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aeb308730343fd3443c1f0df64ffc61f1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aeb308730343fd3443c1f0df64ffc61f1">__init__</a> (self, <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>=None, <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aa73023f6afe78892e001c420bddfdada">nodes</a>=None)</td></tr>
-<tr class="memdesc:aeb308730343fd3443c1f0df64ffc61f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the list of Nodes.  <a href="#aeb308730343fd3443c1f0df64ffc61f1">More...</a><br /></td></tr>
+<tr class="memitem:aeb308730343fd3443c1f0df64ffc61f1"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aeb308730343fd3443c1f0df64ffc61f1">__init__</a> (self, <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>=None, <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76">nodes</a>=None)</td></tr>
+<tr class="memdesc:aeb308730343fd3443c1f0df64ffc61f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the list of Nodes, inputs and outpus.  <a href="#aeb308730343fd3443c1f0df64ffc61f1">More...</a><br /></td></tr>
 <tr class="separator:aeb308730343fd3443c1f0df64ffc61f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04fb49fe8164306b5222027c7dda3f22"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a04fb49fe8164306b5222027c7dda3f22">__unicode__</a> (self)</td></tr>
 <tr class="memdesc:a04fb49fe8164306b5222027c7dda3f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display the <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a>.  <a href="#a04fb49fe8164306b5222027c7dda3f22">More...</a><br /></td></tr>
@@ -148,9 +147,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c010f80f5ebc27fd01780e480682686"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a9c010f80f5ebc27fd01780e480682686">__getitem__</a> (self, key)</td></tr>
 <tr class="memdesc:a9c010f80f5ebc27fd01780e480682686"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grant access to Nodes via their name.  <a href="#a9c010f80f5ebc27fd01780e480682686">More...</a><br /></td></tr>
 <tr class="separator:a9c010f80f5ebc27fd01780e480682686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa73023f6afe78892e001c420bddfdada"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aa73023f6afe78892e001c420bddfdada">nodes</a> (self)</td></tr>
-<tr class="memdesc:aa73023f6afe78892e001c420bddfdada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Aggregate the Nodes of this <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a> and all it's sub graphs.  <a href="#aa73023f6afe78892e001c420bddfdada">More...</a><br /></td></tr>
-<tr class="separator:aa73023f6afe78892e001c420bddfdada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac655dc397674d3cb4d4a0407999e42a7"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ac655dc397674d3cb4d4a0407999e42a7">all_nodes</a> (self)</td></tr>
+<tr class="memdesc:ac655dc397674d3cb4d4a0407999e42a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expand the graph with all it's subgraphs into a flat list of nodes.  <a href="#ac655dc397674d3cb4d4a0407999e42a7">More...</a><br /></td></tr>
+<tr class="separator:ac655dc397674d3cb4d4a0407999e42a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516d7c02f8327315e4ff0b86a66c5f50"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a516d7c02f8327315e4ff0b86a66c5f50">subgraphs</a> (self)</td></tr>
+<tr class="memdesc:a516d7c02f8327315e4ff0b86a66c5f50"><td class="mdescLeft">&#160;</td><td class="mdescRight">All other graphs that the ndoes of this graph are connected to.  <a href="#a516d7c02f8327315e4ff0b86a66c5f50">More...</a><br /></td></tr>
+<tr class="separator:a516d7c02f8327315e4ff0b86a66c5f50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46079b489189ee96db4d2996138e2fb4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a46079b489189ee96db4d2996138e2fb4">evaluation_matrix</a> (self)</td></tr>
 <tr class="memdesc:a46079b489189ee96db4d2996138e2fb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort nodes into a 2D matrix based on their dependency.  <a href="#a46079b489189ee96db4d2996138e2fb4">More...</a><br /></td></tr>
 <tr class="separator:a46079b489189ee96db4d2996138e2fb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +162,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afd311558aae8bf4d61a05f8074692bf2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#afd311558aae8bf4d61a05f8074692bf2">add_node</a> (self, node)</td></tr>
 <tr class="memdesc:afd311558aae8bf4d61a05f8074692bf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add given Node to the <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a>.  <a href="#afd311558aae8bf4d61a05f8074692bf2">More...</a><br /></td></tr>
 <tr class="separator:afd311558aae8bf4d61a05f8074692bf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa515aec53fd1f2aa8e89cd94a7216143"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aa515aec53fd1f2aa8e89cd94a7216143">add_plug</a> (self, plug, <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a>=None)</td></tr>
+<tr class="memdesc:aa515aec53fd1f2aa8e89cd94a7216143"><td class="mdescLeft">&#160;</td><td class="mdescRight">Promote the given plug this graph.  <a href="#aa515aec53fd1f2aa8e89cd94a7216143">More...</a><br /></td></tr>
+<tr class="separator:aa515aec53fd1f2aa8e89cd94a7216143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4635f11d2bd466727ec496a01442aae4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a4635f11d2bd466727ec496a01442aae4">accepts_connection</a> (self, output_plug, input_plug)</td></tr>
+<tr class="memdesc:a4635f11d2bd466727ec496a01442aae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise exception if new connection would violate integrity of graph.  <a href="#a4635f11d2bd466727ec496a01442aae4">More...</a><br /></td></tr>
+<tr class="separator:a4635f11d2bd466727ec496a01442aae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28cb3924bf207d0f4d6d2a0849f7a5a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a28cb3924bf207d0f4d6d2a0849f7a5a2">evaluate</a> (self, mode=&quot;linear&quot;, skip_clean=False, submission_delay=0.1, raise_after=None)</td></tr>
 <tr class="memdesc:a28cb3924bf207d0f4d6d2a0849f7a5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes in the graph.  <a href="#a28cb3924bf207d0f4d6d2a0849f7a5a2">More...</a><br /></td></tr>
 <tr class="separator:a28cb3924bf207d0f4d6d2a0849f7a5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +203,12 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:ab74e6bf80237ddc4109968cedc58c151"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab74e6bf80237ddc4109968cedc58c151">name</a></td></tr>
 <tr class="separator:ab74e6bf80237ddc4109968cedc58c151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6da5270e48c8b5c2f0dbaa008af4df76"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76">nodes</a></td></tr>
+<tr class="separator:a6da5270e48c8b5c2f0dbaa008af4df76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde3b66b6b41bd008469f366fa756e54"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#afde3b66b6b41bd008469f366fa756e54">inputs</a></td></tr>
+<tr class="separator:afde3b66b6b41bd008469f366fa756e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8d743b78404b120589eca8c77c1c2a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#af8d743b78404b120589eca8c77c1c2a9">outputs</a></td></tr>
+<tr class="separator:af8d743b78404b120589eca8c77c1c2a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -207,17 +221,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a8436596259bd96f9abd93c2c8c948b9c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a8436596259bd96f9abd93c2c8c948b9c">_evaluate_multiprocessed</a> (self, skip_clean, submission_delay, kwargs)</td></tr>
 <tr class="memdesc:a8436596259bd96f9abd93c2c8c948b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to the threaded evaluation but with multiprocessing.  <a href="#a8436596259bd96f9abd93c2c8c948b9c">More...</a><br /></td></tr>
 <tr class="separator:a8436596259bd96f9abd93c2c8c948b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fccc4ebe99b20bc7586cf93ae10fbaa"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a7fccc4ebe99b20bc7586cf93ae10fbaa">_serialize</a> (self)</td></tr>
-<tr class="memdesc:a7fccc4ebe99b20bc7586cf93ae10fbaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the graph in it's grid form.  <a href="#a7fccc4ebe99b20bc7586cf93ae10fbaa">More...</a><br /></td></tr>
-<tr class="separator:a7fccc4ebe99b20bc7586cf93ae10fbaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7bd6299e96593297a592d3045e337db"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ac7bd6299e96593297a592d3045e337db">_serialize</a> (self, with_subgraphs=True)</td></tr>
+<tr class="memdesc:ac7bd6299e96593297a592d3045e337db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the graph in it's grid form.  <a href="#ac7bd6299e96593297a592d3045e337db">More...</a><br /></td></tr>
+<tr class="separator:ac7bd6299e96593297a592d3045e337db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6be30cce23167cece44175c826c70832"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6be30cce23167cece44175c826c70832">_sort_node</a> (self, node, parent, level)</td></tr>
 <tr class="memdesc:a6be30cce23167cece44175c826c70832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort the node into the correct level.  <a href="#a6be30cce23167cece44175c826c70832">More...</a><br /></td></tr>
 <tr class="separator:a6be30cce23167cece44175c826c70832"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a0d071689f4a7251decb11b46025e6d97"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a0d071689f4a7251decb11b46025e6d97">_nodes</a></td></tr>
-<tr class="separator:a0d071689f4a7251decb11b46025e6d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A graph of Nodes. </p>
@@ -252,7 +261,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialize the list of Nodes. </p>
+<p>Initialize the list of Nodes, inputs and outpus. </p>
 
 </div>
 </div>
@@ -321,12 +330,12 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa73023f6afe78892e001c420bddfdada"></a>
+<a class="anchor" id="ac655dc397674d3cb4d4a0407999e42a7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">def nodes </td>
+          <td class="memname">def all_nodes </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>self</em></td><td>)</td>
@@ -335,7 +344,28 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Aggregate the Nodes of this <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a> and all it's sub graphs. </p>
+<p>Expand the graph with all it's subgraphs into a flat list of nodes. </p>
+<p>Please note that in this expanded list, the node names are no longer guaranteed to be unique!</p>
+<p>Returns: (list of INode): All nodes, including the nodes from subgraphs </p>
+
+</div>
+</div>
+<a class="anchor" id="a516d7c02f8327315e4ff0b86a66c5f50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def subgraphs </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>All other graphs that the ndoes of this graph are connected to. </p>
+<p>Returns: A dict in the form of {graph.name: graph} </p>
 
 </div>
 </div>
@@ -404,6 +434,76 @@ Private Attributes</h2></td></tr>
 
 <p>Add given Node to the <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a>. </p>
 <p>Nodes on a <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml" title="A graph of Nodes. ">Graph</a> have to have unique names. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa515aec53fd1f2aa8e89cd94a7216143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def add_plug </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>plug</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>name</em> = <code>None</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Promote the given plug this graph. </p>
+<p>Args: plug (<a class="el" href="../../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml" title="The interface for the plugs. ">flowpipe.plug.IPlug</a>): The plug to promote to this graph name (str): Optionally use the given name instead of the name of the given plug </p>
+
+</div>
+</div>
+<a class="anchor" id="a4635f11d2bd466727ec496a01442aae4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">def accepts_connection </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>output_plug</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>input_plug</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Raise exception if new connection would violate integrity of graph. </p>
+<p>Args: output_plug (<a class="el" href="../../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml" title="Provides data to an InputPlug. ">flowpipe.plug.OutputPlug</a>): The output plug input_plug (<a class="el" href="../../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml" title="Receives data from an OutputPlug. ">flowpipe.plug.InputPlug</a>): The input plug Raises: CycleError and ValueError Returns: True if the connection is accepted </p>
 
 </div>
 </div>
@@ -664,7 +764,7 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a7fccc4ebe99b20bc7586cf93ae10fbaa"></a>
+<a class="anchor" id="ac7bd6299e96593297a592d3045e337db"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -675,8 +775,18 @@ Private Attributes</h2></td></tr>
           <td class="memname">def _serialize </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>self</em></td><td>)</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>with_subgraphs</em> = <code>True</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -687,6 +797,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Serialize the graph in it's grid form. </p>
+<p>Args: with_subgraphs (bool): Set to false to avoid infinite recursion </p>
 
 </div>
 </div>
@@ -865,22 +976,38 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a0d071689f4a7251decb11b46025e6d97"></a>
+<a class="anchor" id="a6da5270e48c8b5c2f0dbaa008af4df76"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">_nodes</td>
+          <td class="memname">nodes</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afde3b66b6b41bd008469f366fa756e54"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">inputs</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af8d743b78404b120589eca8c77c1c2a9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">outputs</td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
 </div>

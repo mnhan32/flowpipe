@@ -10,6 +10,7 @@ var classflowpipe_1_1plug_1_1IPlug =
     [ "is_dirty", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a6cbafca70c4a4ed0dcd628cc8b93b668", null ],
     [ "connect", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a6bb07b77d3883879fa62f11b0e28e52b", null ],
     [ "disconnect", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#af9e2ddd2adb20c9fbcc733cec6e4bab3", null ],
+    [ "promote_to_graph", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a79ffce2970c6cd0f5f445c287e4d09ee", null ],
     [ "name", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151", null ],
     [ "node", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0", null ],
     [ "connections", "d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a05c97c0ecc629abbb582b61ed0bfc9b3", null ],

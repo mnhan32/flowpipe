@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['errors',['errors',['../de/d0b/namespaceflowpipe_1_1errors.xhtml',1,'flowpipe']]],
   ['event',['event',['../db/d12/namespaceflowpipe_1_1event.xhtml',1,'flowpipe']]],
   ['flowpipe',['flowpipe',['../d4/d3d/namespaceflowpipe.xhtml',1,'']]],
   ['graph',['graph',['../d0/d6b/namespaceflowpipe_1_1graph.xhtml',1,'flowpipe']]],

@@ -32,5 +32,6 @@ var classflowpipe_1_1node_1_1INode =
     [ "omit", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a36c33cda455902e250ccc64842fb5ddc", null ],
     [ "file_location", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ae317848454d4a83291a27290cde639e3", null ],
     [ "class_name", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a3378f35ca205fd422d7edb3190867861", null ],
+    [ "graph", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a8ca49c796430e66a10450bfc2d218c81", null ],
     [ "stats", "d9/d44/classflowpipe_1_1node_1_1INode.xhtml#aa57ebe01934de43865125819a3c4af74", null ]
 ];
