@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['listeners',['listeners',['../d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#a2189157b8b1738cdfb9f939b5d9aa1b9',1,'flowpipe.log_observer.LogObserver.listeners()'],['../d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml#a2189157b8b1738cdfb9f939b5d9aa1b9',1,'flowpipe.stats_reporter.StatsReporter.listeners()']]],
-  ['logger',['logger',['../d4/d3d/namespaceflowpipe.xhtml#a0b14e488ae28d98d262453f3e9cd6e4d',1,'flowpipe']]]
+  ['identifier',['identifier',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afc486b0767ef05e2dc12f5b98be72902',1,'flowpipe.node.INode.identifier()'],['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#afc486b0767ef05e2dc12f5b98be72902',1,'flowpipe.node.FunctionNode.identifier()']]],
+  ['inputs',['inputs',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#afde3b66b6b41bd008469f366fa756e54',1,'flowpipe.graph.Graph.inputs()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#afde3b66b6b41bd008469f366fa756e54',1,'flowpipe.node.INode.inputs()']]],
+  ['is_5fdirty',['is_dirty',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.IPlug.is_dirty()'],['../d5/df3/classflowpipe_1_1plug_1_1OutputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.OutputPlug.is_dirty()'],['../de/dee/classflowpipe_1_1plug_1_1InputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.InputPlug.is_dirty()'],['../de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.SubInputPlug.is_dirty()'],['../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a11a064c92f179b2a2fb7751f8c86236f',1,'flowpipe.plug.SubOutputPlug.is_dirty()']]]
 ];

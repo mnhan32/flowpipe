@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['package',['PACKAGE',['../d4/d3d/namespaceflowpipe.xhtml#a3fc64bcd833351c4f7b55c634742fa15',1,'flowpipe']]],
-  ['parent_5fplug',['parent_plug',['../de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml#a626c3691a62b3ef792896e10132ef25e',1,'flowpipe.plug.SubInputPlug.parent_plug()'],['../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#a626c3691a62b3ef792896e10132ef25e',1,'flowpipe.plug.SubOutputPlug.parent_plug()']]],
-  ['propagate',['propagate',['../d4/d3d/namespaceflowpipe.xhtml#a4178eeb5b3a52e0e271ec13cef662118',1,'flowpipe']]]
+  ['name',['name',['../de/d37/classflowpipe_1_1event_1_1Event.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.event.Event.name()'],['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.graph.Graph.name()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.node.INode.name()'],['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.node.FunctionNode.name()'],['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ab74e6bf80237ddc4109968cedc58c151',1,'flowpipe.plug.IPlug.name()']]],
+  ['node',['node',['../d3/dd5/classflowpipe_1_1plug_1_1IPlug.xhtml#ae0682e96cacac1e6c208357a99dbd6d0',1,'flowpipe::plug::IPlug']]],
+  ['nodes',['nodes',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a6da5270e48c8b5c2f0dbaa008af4df76',1,'flowpipe::graph::Graph']]]
 ];
