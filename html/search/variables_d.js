@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['omit',['omit',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a36c33cda455902e250ccc64842fb5ddc',1,'flowpipe::node::INode']]],
-  ['outputs',['outputs',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#af8d743b78404b120589eca8c77c1c2a9',1,'flowpipe.graph.Graph.outputs()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af8d743b78404b120589eca8c77c1c2a9',1,'flowpipe.node.INode.outputs()']]]
+  ['reserved_5finput_5fnames',['RESERVED_INPUT_NAMES',['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a7ba732eaa302ac8a1b4e29952b63e014',1,'flowpipe::node::FunctionNode']]]
 ];

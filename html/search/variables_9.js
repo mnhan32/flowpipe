@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['key',['key',['../de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml#ab0d96f9d852c2058c2546a1338e87544',1,'flowpipe.plug.SubInputPlug.key()'],['../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#ab0d96f9d852c2058c2546a1338e87544',1,'flowpipe.plug.SubOutputPlug.key()']]]
+  ['metadata',['metadata',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a9cfcb724bbf4bae5f97bc17cf58cf522',1,'flowpipe.node.INode.metadata()'],['../dc/d7c/classflowpipe_1_1node_1_1FunctionNode.xhtml#a9cfcb724bbf4bae5f97bc17cf58cf522',1,'flowpipe.node.FunctionNode.metadata()']]]
 ];
