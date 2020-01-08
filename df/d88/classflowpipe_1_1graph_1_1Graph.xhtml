@@ -168,9 +168,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4635f11d2bd466727ec496a01442aae4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a4635f11d2bd466727ec496a01442aae4">accepts_connection</a> (self, output_plug, input_plug)</td></tr>
 <tr class="memdesc:a4635f11d2bd466727ec496a01442aae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise exception if new connection would violate integrity of graph.  <a href="#a4635f11d2bd466727ec496a01442aae4">More...</a><br /></td></tr>
 <tr class="separator:a4635f11d2bd466727ec496a01442aae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28cb3924bf207d0f4d6d2a0849f7a5a2"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a28cb3924bf207d0f4d6d2a0849f7a5a2">evaluate</a> (self, mode=&quot;linear&quot;, skip_clean=False, submission_delay=0.1, raise_after=None)</td></tr>
-<tr class="memdesc:a28cb3924bf207d0f4d6d2a0849f7a5a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes in the graph.  <a href="#a28cb3924bf207d0f4d6d2a0849f7a5a2">More...</a><br /></td></tr>
-<tr class="separator:a28cb3924bf207d0f4d6d2a0849f7a5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab705226f7ce49486de6eba408267d261"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab705226f7ce49486de6eba408267d261">evaluate</a> (self, mode=&quot;linear&quot;, skip_clean=False, submission_delay=0.1, max_workers=None)</td></tr>
+<tr class="memdesc:ab705226f7ce49486de6eba408267d261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes in the graph.  <a href="#ab705226f7ce49486de6eba408267d261">More...</a><br /></td></tr>
+<tr class="separator:ab705226f7ce49486de6eba408267d261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade569b6a8679a861eee819f8b4b66705"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ade569b6a8679a861eee819f8b4b66705">to_pickle</a> (self)</td></tr>
 <tr class="memdesc:ade569b6a8679a861eee819f8b4b66705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the graph into a pickle.  <a href="#ade569b6a8679a861eee819f8b4b66705">More...</a><br /></td></tr>
 <tr class="separator:ade569b6a8679a861eee819f8b4b66705"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,9 +215,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:afeaf8142b5cf0d92c68b1869f83dc0ce"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#afeaf8142b5cf0d92c68b1869f83dc0ce">_evaluate_linear</a> (self, skip_clean, kwargs)</td></tr>
 <tr class="memdesc:afeaf8142b5cf0d92c68b1869f83dc0ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterate over all nodes in a single thread (the current one).  <a href="#afeaf8142b5cf0d92c68b1869f83dc0ce">More...</a><br /></td></tr>
 <tr class="separator:afeaf8142b5cf0d92c68b1869f83dc0ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add86c86f2d69425f8bac6ea33c8e7466"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#add86c86f2d69425f8bac6ea33c8e7466">_evaluate_threaded</a> (self, skip_clean, submission_delay, raise_after, kwargs)</td></tr>
-<tr class="memdesc:add86c86f2d69425f8bac6ea33c8e7466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate each node in a new thread.  <a href="#add86c86f2d69425f8bac6ea33c8e7466">More...</a><br /></td></tr>
-<tr class="separator:add86c86f2d69425f8bac6ea33c8e7466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61fc16d8d0b309214e9f01bf56e5fea"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ae61fc16d8d0b309214e9f01bf56e5fea">_evaluate_threaded</a> (self, skip_clean, submission_delay, max_workers=None, kwargs)</td></tr>
+<tr class="memdesc:ae61fc16d8d0b309214e9f01bf56e5fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate each node in a new thread.  <a href="#ae61fc16d8d0b309214e9f01bf56e5fea">More...</a><br /></td></tr>
+<tr class="separator:ae61fc16d8d0b309214e9f01bf56e5fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8436596259bd96f9abd93c2c8c948b9c"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a8436596259bd96f9abd93c2c8c948b9c">_evaluate_multiprocessed</a> (self, skip_clean, submission_delay, kwargs)</td></tr>
 <tr class="memdesc:a8436596259bd96f9abd93c2c8c948b9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to the threaded evaluation but with multiprocessing.  <a href="#a8436596259bd96f9abd93c2c8c948b9c">More...</a><br /></td></tr>
 <tr class="separator:a8436596259bd96f9abd93c2c8c948b9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -507,7 +507,7 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a28cb3924bf207d0f4d6d2a0849f7a5a2"></a>
+<a class="anchor" id="ab705226f7ce49486de6eba408267d261"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -539,7 +539,7 @@ Private Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>raise_after</em> = <code>None</code>&#160;</td>
+          <td class="paramname"><em>max_workers</em> = <code>None</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -556,7 +556,7 @@ Private Member Functions</h2></td></tr>
 <p>Args: mode (str): The evaluation mode. Possible modes are</p><ul>
 <li>linear : Iterates over all nodes in a single thread</li>
 <li>threading : Evaluates each node in a new thread</li>
-<li>multiprocessing : Evaluates each node in a new process skip_clean (bool): Whether to skip nodes that are 'clean' (as tracked by the 'is_dirty' attribute on the node), i.e. whose inputs have not changed since their output was computed submission_delay (float): The delay in seconds between loops issuing new threads/processes if nodes are ready to process. raise_after (int): The number of loops without currently running threads/processes after which to raise a RuntimeError. </li>
+<li>multiprocessing : Evaluates each node in a new process skip_clean (bool): Whether to skip nodes that are 'clean' (as tracked by the 'is_dirty' attribute on the node), i.e. whose inputs have not changed since their output was computed submission_delay (float): The delay in seconds between loops issuing new threads/processes if nodes are ready to process. max_workers (int): The maximum number of parallel threads to spawn. None defaults to your pythons ThreadPoolExecutor default. </li>
 </ul>
 
 </div>
@@ -604,7 +604,7 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="add86c86f2d69425f8bac6ea33c8e7466"></a>
+<a class="anchor" id="ae61fc16d8d0b309214e9f01bf56e5fea"></a>
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
@@ -633,7 +633,7 @@ Private Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>raise_after</em>, </td>
+          <td class="paramname"><em>max_workers</em> = <code>None</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
