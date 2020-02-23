@@ -9,7 +9,6 @@ var classflowpipe_1_1graph_1_1Graph =
     [ "evaluation_matrix", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a46079b489189ee96db4d2996138e2fb4", null ],
     [ "evaluation_sequence", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a73ed7289d91d98133806fbedb1a29a66", null ],
     [ "add_node", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#afd311558aae8bf4d61a05f8074692bf2", null ],
-    [ "delete_node", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#af5e88ca0a63a4d7b9c08434721c6d593", null ],
     [ "add_plug", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#aa515aec53fd1f2aa8e89cd94a7216143", null ],
     [ "accepts_connection", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a4635f11d2bd466727ec496a01442aae4", null ],
     [ "evaluate", "df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ab705226f7ce49486de6eba408267d261", null ],
