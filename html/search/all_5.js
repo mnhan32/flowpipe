@@ -6,5 +6,6 @@ var searchData=
   ['evaluation_5fmatrix',['evaluation_matrix',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a46079b489189ee96db4d2996138e2fb4',1,'flowpipe::graph::Graph']]],
   ['evaluation_5fsequence',['evaluation_sequence',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a73ed7289d91d98133806fbedb1a29a66',1,'flowpipe::graph::Graph']]],
   ['event',['Event',['../de/d37/classflowpipe_1_1event_1_1Event.xhtml',1,'flowpipe::event']]],
-  ['events',['EVENTS',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a8b83f083b2bdfe6b3f0fba803f9cfc0e',1,'flowpipe::node::INode']]]
+  ['event_5ftypes',['EVENT_TYPES',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#af96b74f5dab0b07f1285c6fa95bc95a7',1,'flowpipe::node::INode']]],
+  ['events',['EVENTS',['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a0383e5bf22653a832beeabda82c1eeb3',1,'flowpipe::node::INode']]]
 ];
