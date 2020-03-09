@@ -129,17 +129,11 @@ Functions</h2></td></tr>
 <tr class="memitem:a462b426c8ce358dbc2f0b62760f65593"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#a462b426c8ce358dbc2f0b62760f65593">reset_default_graph</a> ()</td></tr>
 <tr class="memdesc:a462b426c8ce358dbc2f0b62760f65593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reset the default graph to an empty graph.  <a href="#a462b426c8ce358dbc2f0b62760f65593">More...</a><br /></td></tr>
 <tr class="separator:a462b426c8ce358dbc2f0b62760f65593"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18a0fcad8e1501be89a66b64b50d0b2e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#a18a0fcad8e1501be89a66b64b50d0b2e">evaluate_node_in_process</a> (identifier, nodes_data)</td></tr>
-<tr class="memdesc:a18a0fcad8e1501be89a66b64b50d0b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate a node when multiprocessing.  <a href="#a18a0fcad8e1501be89a66b64b50d0b2e">More...</a><br /></td></tr>
-<tr class="separator:a18a0fcad8e1501be89a66b64b50d0b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e8ccc1fd5cfd5163720b40077baa98e"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#a6e8ccc1fd5cfd5163720b40077baa98e">update_node</a> (node, data)</td></tr>
-<tr class="memdesc:a6e8ccc1fd5cfd5163720b40077baa98e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Apply the plug values of the data dict to the node object.  <a href="#a6e8ccc1fd5cfd5163720b40077baa98e">More...</a><br /></td></tr>
-<tr class="separator:a6e8ccc1fd5cfd5163720b40077baa98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab09a63eb35b270b5cdbead1983ebdccb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#ab09a63eb35b270b5cdbead1983ebdccb">log</a> = logging.getLogger(__name__)</td></tr>
-<tr class="separator:ab09a63eb35b270b5cdbead1983ebdccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4a022e6ddacd362b83964da5cc5d044"><td class="memItemLeft" align="right" valign="top">list&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#aa4a022e6ddacd362b83964da5cc5d044">__all__</a> = ['<a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a>']</td></tr>
+<tr class="separator:aa4a022e6ddacd362b83964da5cc5d044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace48802b6c28481aae5e554c8c1da34e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6b/namespaceflowpipe_1_1graph.xhtml#ace48802b6c28481aae5e554c8c1da34e">default_graph</a> = <a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a>(name='default')</td></tr>
 <tr class="separator:ace48802b6c28481aae5e554c8c1da34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -196,78 +190,23 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a18a0fcad8e1501be89a66b64b50d0b2e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def flowpipe.graph.evaluate_node_in_process </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>identifier</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>nodes_data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Evaluate a node when multiprocessing. </p>
-<ol type="1">
-<li>Deserializing the node from the given nodes_data dict</li>
-<li>Retrieving upstream data from the nodes_data dict</li>
-<li>Evaluating the node</li>
-<li>Serializing the results back into the nodes_data</li>
-</ol>
-<p>Args: identifier (str): The identifier of the node to evaluate nodes_data (dict): Used like a "database" to store the nodes </p>
-
-</div>
-</div>
-<a class="anchor" id="a6e8ccc1fd5cfd5163720b40077baa98e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">def flowpipe.graph.update_node </td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>node</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>data</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Apply the plug values of the data dict to the node object. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="ab09a63eb35b270b5cdbead1983ebdccb"></a>
+<a class="anchor" id="aa4a022e6ddacd362b83964da5cc5d044"></a>
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">log = logging.getLogger(__name__)</td>
+          <td class="memname">list __all__ = ['<a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml">Graph</a>']</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

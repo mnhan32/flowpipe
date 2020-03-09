@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['from_5fjson',['from_json',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a65ed1d5a347be31615acc08d0646ca47',1,'flowpipe.graph.Graph.from_json()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a65ed1d5a347be31615acc08d0646ca47',1,'flowpipe.node.INode.from_json()']]],
-  ['from_5fpickle',['from_pickle',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a3ef3f528f3c6d2608a2cf2c414c145b1',1,'flowpipe.graph.Graph.from_pickle()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#a3ef3f528f3c6d2608a2cf2c414c145b1',1,'flowpipe.node.INode.from_pickle()']]]
+  ['get_5fdefault_5fgraph',['get_default_graph',['../d0/d6b/namespaceflowpipe_1_1graph.xhtml#a62efa2a0ae77c890b3903c58e37167ca',1,'flowpipe::graph']]]
 ];
