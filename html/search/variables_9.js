@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['listeners',['listeners',['../d9/ddc/classflowpipe_1_1log__observer_1_1LogObserver.xhtml#a2189157b8b1738cdfb9f939b5d9aa1b9',1,'flowpipe.log_observer.LogObserver.listeners()'],['../d0/d86/classflowpipe_1_1stats__reporter_1_1StatsReporter.xhtml#a2189157b8b1738cdfb9f939b5d9aa1b9',1,'flowpipe.stats_reporter.StatsReporter.listeners()']]],
-  ['logger',['logger',['../d4/d3d/namespaceflowpipe.xhtml#a0b14e488ae28d98d262453f3e9cd6e4d',1,'flowpipe']]]
+  ['key',['key',['../de/d09/classflowpipe_1_1plug_1_1SubInputPlug.xhtml#ab0d96f9d852c2058c2546a1338e87544',1,'flowpipe.plug.SubInputPlug.key()'],['../d7/d41/classflowpipe_1_1plug_1_1SubOutputPlug.xhtml#ab0d96f9d852c2058c2546a1338e87544',1,'flowpipe.plug.SubOutputPlug.key()']]]
 ];
