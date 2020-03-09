@@ -2,6 +2,7 @@ var searchData=
 [
   ['default',['default',['../d1/dd2/classflowpipe_1_1utilities_1_1NodeEncoder.xhtml#a6d0e1177dbe6207931c08dc6def6cbe3',1,'flowpipe::utilities::NodeEncoder']]],
   ['default_5fgraph',['default_graph',['../d0/d6b/namespaceflowpipe_1_1graph.xhtml#ace48802b6c28481aae5e554c8c1da34e',1,'flowpipe::graph']]],
+  ['delete_5fnode',['delete_node',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#af5e88ca0a63a4d7b9c08434721c6d593',1,'flowpipe::graph::Graph']]],
   ['deregister',['deregister',['../de/d37/classflowpipe_1_1event_1_1Event.xhtml#a4d840fa14f938fbe56d0a177af95ab56',1,'flowpipe::event::Event']]],
   ['deserialize',['deserialize',['../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#acc55513b8f622820fc330d57fdb67d57',1,'flowpipe.graph.Graph.deserialize()'],['../d9/d44/classflowpipe_1_1node_1_1INode.xhtml#acc55513b8f622820fc330d57fdb67d57',1,'flowpipe.node.INode.deserialize()']]],
   ['deserialize_5fgraph',['deserialize_graph',['../d6/d20/namespaceflowpipe_1_1utilities.xhtml#aeb808b91c524c4c837aed4921f6e872a',1,'flowpipe::utilities']]],
