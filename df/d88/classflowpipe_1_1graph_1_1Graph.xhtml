@@ -171,9 +171,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4635f11d2bd466727ec496a01442aae4"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a4635f11d2bd466727ec496a01442aae4">accepts_connection</a> (self, output_plug, input_plug)</td></tr>
 <tr class="memdesc:a4635f11d2bd466727ec496a01442aae4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Raise exception if new connection would violate integrity of graph.  <a href="#a4635f11d2bd466727ec496a01442aae4">More...</a><br /></td></tr>
 <tr class="separator:a4635f11d2bd466727ec496a01442aae4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30cf1a97c96274c9d520b2b8af4519de"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a30cf1a97c96274c9d520b2b8af4519de">evaluate</a> (self, mode=&quot;linear&quot;, skip_clean=False, submission_delay=0.1, max_workers=None, data_persistant=True)</td></tr>
-<tr class="memdesc:a30cf1a97c96274c9d520b2b8af4519de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes in the graph.  <a href="#a30cf1a97c96274c9d520b2b8af4519de">More...</a><br /></td></tr>
-<tr class="separator:a30cf1a97c96274c9d520b2b8af4519de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f195b2c8841bcbc15ad0048a82e0430"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#a3f195b2c8841bcbc15ad0048a82e0430">evaluate</a> (self, mode=&quot;linear&quot;, skip_clean=False, submission_delay=0.1, max_workers=None, data_persistence=True)</td></tr>
+<tr class="memdesc:a3f195b2c8841bcbc15ad0048a82e0430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Evaluate all Nodes in the graph.  <a href="#a3f195b2c8841bcbc15ad0048a82e0430">More...</a><br /></td></tr>
+<tr class="separator:a3f195b2c8841bcbc15ad0048a82e0430"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ade569b6a8679a861eee819f8b4b66705"><td class="memItemLeft" align="right" valign="top">def&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d88/classflowpipe_1_1graph_1_1Graph.xhtml#ade569b6a8679a861eee819f8b4b66705">to_pickle</a> (self)</td></tr>
 <tr class="memdesc:ade569b6a8679a861eee819f8b4b66705"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize the graph into a pickle.  <a href="#ade569b6a8679a861eee819f8b4b66705">More...</a><br /></td></tr>
 <tr class="separator:ade569b6a8679a861eee819f8b4b66705"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -538,7 +538,7 @@ Private Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a30cf1a97c96274c9d520b2b8af4519de"></a>
+<a class="anchor" id="a3f195b2c8841bcbc15ad0048a82e0430"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -576,7 +576,7 @@ Private Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>data_persistant</em> = <code>True</code>&#160;</td>
+          <td class="paramname"><em>data_persistence</em> = <code>True</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -593,7 +593,7 @@ Private Member Functions</h2></td></tr>
 <p>Args: mode (str): The evaluation mode. Possible modes are</p><ul>
 <li>linear : Iterates over all nodes in a single thread</li>
 <li>threading : Evaluates each node in a new thread</li>
-<li>multiprocessing : Evaluates each node in a new process skip_clean (bool): Whether to skip nodes that are 'clean' (as tracked by the 'is_dirty' attribute on the node), i.e. whose inputs have not changed since their output was computed submission_delay (float): The delay in seconds between loops issuing new threads/processes if nodes are ready to process. max_workers (int): The maximum number of parallel threads to spawn. None defaults to your pythons ThreadPoolExecutor default. data_persistant (bool): If false, the data on plugs that have connections gets cleared (set to None). This reduces the reference count of objects. </li>
+<li>multiprocessing : Evaluates each node in a new process skip_clean (bool): Whether to skip nodes that are 'clean' (as tracked by the 'is_dirty' attribute on the node), i.e. whose inputs have not changed since their output was computed submission_delay (float): The delay in seconds between loops issuing new threads/processes if nodes are ready to process. max_workers (int): The maximum number of parallel threads to spawn. None defaults to your pythons ThreadPoolExecutor default. data_persistence (bool): If false, the data on plugs that have connections gets cleared (set to None). This reduces the reference count of objects. </li>
 </ul>
 
 </div>
